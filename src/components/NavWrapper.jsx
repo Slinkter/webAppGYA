@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+import './NavWrapper.css'
 export default function NavWrapper({ children }) {
   return (
     <div className="">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top navstyle">
         <div className="container ">
           <button
             className="navbar-toggler"
@@ -64,7 +65,7 @@ export default function NavWrapper({ children }) {
           </div>
         </div>
       </nav>
-      <div className="mt-5">{children}</div>
+      <div className="">{children}</div>
     </div>
   );
 }
