@@ -6,12 +6,9 @@ import Footer from "../components/FooterWrapper";
 export default function InicioView() {
   return (
     <NavWrapper>
-      <div className="">
-        <Landcover />
-        <Ubicacion />
-        <Footer/>
-       
-      </div>
+      <Landcover />
+      <Ubicacion />
+      <Footer />
     </NavWrapper>
   );
 }

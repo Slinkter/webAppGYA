@@ -1,11 +1,13 @@
 import NavWrapper from "../components/NavWrapper";
+import Landcover from "../components/Inicio/landcover";
+import Footer from "../components/FooterWrapper";
+
 
 export default function BudgetView() {
   return (
     <NavWrapper>
-      <div className="container">
-        <h1> Presupuesto</h1>
-      </div>
+      <Landcover />
+      <Footer />
     </NavWrapper>
   );
 }

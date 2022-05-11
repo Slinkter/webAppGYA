@@ -1,9 +1,12 @@
 import NavWrapper from "../components/NavWrapper";
+import Landcover from "../components/Inicio/landcover";
+import Footer from "../components/FooterWrapper";
 
-export default function ServiceView(){
-    return( <NavWrapper>
-        <div className="container">
-          <h1 > Servicios</h1>
-        </div>
-      </NavWrapper>)
+export default function ServiceView() {
+  return (
+    <NavWrapper>
+      <Landcover />
+      <Footer />
+    </NavWrapper>
+  );
 }

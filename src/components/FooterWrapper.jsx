@@ -23,11 +23,7 @@ export default function Footer() {
                     <i class="fa-brands fa-tiktok"></i>
                   </a>
                 </li>
-                <li>
-                  <a href="https://www.pinterest.com/themefisher/">
-                    <i class="fa-brands fa-youtube"></i>
-                  </a>
-                </li>
+             
               </ul>
             </div>
             <p className="copyright-text">Lima - Peru</p>

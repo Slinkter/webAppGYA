@@ -1,8 +1,8 @@
 import { Link } from "react-router-dom";
-import './NavWrapper.css'
+import "./NavWrapper.css";
 export default function NavWrapper({ children }) {
   return (
-    <div className="">
+    <header className="">
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top navstyle">
         <div className="container ">
           <button
@@ -20,7 +20,7 @@ export default function NavWrapper({ children }) {
             className="  justify-content-md-center collapse navbar-collapse "
             id="navbarSupportedContent1"
           >
-            <ul className="navbar-nav text-center " >
+            <ul className="navbar-nav text-center ">
               <li className="nav-item">
                 <Link className="nav-link " to="/">
                   Inicio
@@ -66,6 +66,6 @@ export default function NavWrapper({ children }) {
         </div>
       </nav>
       <div className="">{children}</div>
-    </div>
+    </header>
   );
 }

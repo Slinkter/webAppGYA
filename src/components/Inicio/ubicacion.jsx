@@ -1,9 +1,9 @@
 import "./ubicacion.css";
 export default function Ubicacion() {
   return (
-    <section>
+    <section className="">
       <div class=" bg_ubicacion text-center ">
-        <div class="">
+        <div class="container">
           <h2 class="titleh2">UBICANOS</h2>
           <p class="lead text-secondary">Av. los Fresnos 1256, La Molina</p>
         </div>
