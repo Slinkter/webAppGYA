@@ -21,9 +21,9 @@ export default function Beneficio() {
               Presupuestos <span class="text-muted"> Online</span>
             </h2>
             <p className="mb-4  mr-5 p_empresa">
-              Nosotros estamos disponibles hacer una visita tecnica sin costo o
-              puedes enviarnos tus medidas y nosotros te enviamos el presupuesto
-              digital vía whatsapp o messenger en menos de 24 horas .
+              Realizamos visitas a domicilio sin costo alguno o puedes enviarnos
+              sus requerimientos y le enviamos un presupuesto digital vía
+              whatsapp o messenger en menos de 24 horas .
             </p>
             <ul className="list-unstyled mb-5">
               <li className="mb-2">
@@ -42,7 +42,7 @@ export default function Beneficio() {
             <div className="text-center">
               <button className="my-2 mx-3 col-lg-5 col-md-11   btn btn-outline-success ">
                 <a
-                  href="https://wa.me/51996537435?text=Quisiera una contización para .... "
+                  href="https://wa.me/51996537435?text=Quisiera una cotización para .... "
                   className=""
                 >
                   <i class="fa-brands fa-whatsapp mx-2 "></i>
@@ -52,7 +52,7 @@ export default function Beneficio() {
 
               <button className="my-2 mx-3 col-lg-5 col-md-11   btn btn-outline-primary">
                 <a
-                  href="https://wa.me/51996537435?text=Quisiera una contización para .... "
+                  href="https://wa.me/51996537435?text=Quisiera una cotización para .... "
                   className=""
                 >
                   <i class="fa-brands fa-whatsapp mx-2 "></i>
@@ -81,12 +81,11 @@ export default function Beneficio() {
             <ul className="list-unstyled mb-5">
               <li className="mb-2">
                 <i className="fa fa-check px-2" aria-hidden="true"></i>
-                Profesionales con años de experiencia en instalación de
-                cristales
+                Profesionales y técnicos con años de experiencia
               </li>
               <li className="mb-2">
                 <i className="fa fa-check px-2" aria-hidden="true"></i>
-                Materiales que cumple los estandares de calidad.
+                Materiales que cumple los estándares de calidad.
               </li>
               <li className="mb-2">
                 <i className="fa fa-check px-2" aria-hidden="true"></i>
@@ -107,9 +106,7 @@ export default function Beneficio() {
               Garantía <span class="text-muted"> y Calidad</span>
             </h2>
             <p className="mb-4  mr-5 p_empresa">
-              Nuestros servicios de instalación tiene una garantía de hasta 6
-              meses una vez entragado y conformidad del cliente.También se puede
-              cambiar los accesorios si no funciona correctamente.
+              Nuestros servicios de instalación tiene una garantía de 6 meses .
             </p>
             <ul className="list-unstyled mb-5">
               <li className="mb-2">
@@ -122,7 +119,7 @@ export default function Beneficio() {
               </li>
               <li className="mb-2">
                 <i className="fa fa-check px-2" aria-hidden="true"></i>
-                Certificado de garantia
+                Certificado de garantía
               </li>
             </ul>
             <div className="text-center"></div>

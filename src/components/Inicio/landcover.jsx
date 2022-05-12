@@ -17,14 +17,10 @@ export default function Landcover() {
               aluminio para inmobiliarias , negocios y hogares .
             </h4>
             <button className="mt-3  btn btn-outline-success ">
-              <a
-                href="https://wa.me/51996537435?text=Quisiera una contización para .... "
-                className=""
-              >
+              <a href="https://wa.me/51996537435?text=Quisiera una cotización para .... ">
                 <i class="fa-brands fa-whatsapp mx-2 "></i>
                 Solicitar Presupuesto
               </a>
-             
             </button>
           </div>
         </main>
