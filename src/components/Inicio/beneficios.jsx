@@ -40,14 +40,24 @@ export default function Beneficio() {
               </li>
             </ul>
             <div className="text-center">
-              <button className="my-2 mx-3 col-lg-5 col-md-11   btn btn-outline-success">
-                <i className="fa-brands fa-whatsapp mx-2"></i>
-                Solicitar Presupuesto
+              <button className="my-2 mx-3 col-lg-5 col-md-11   btn btn-outline-success ">
+                <a
+                  href="https://wa.me/51996537435?text=Quisiera una contización para .... "
+                  className=""
+                >
+                  <i class="fa-brands fa-whatsapp mx-2 "></i>
+                  Solicitar Presupuesto
+                </a>
               </button>
 
               <button className="my-2 mx-3 col-lg-5 col-md-11   btn btn-outline-primary">
-                <i className="fa-brands fa-whatsapp mx-2"></i>
-                Solicitar Visita Tecnica
+                <a
+                  href="https://wa.me/51996537435?text=Quisiera una contización para .... "
+                  className=""
+                >
+                  <i class="fa-brands fa-whatsapp mx-2 "></i>
+                  Solicitar Presupuesto
+                </a>
               </button>
             </div>
           </div>
@@ -104,11 +114,11 @@ export default function Beneficio() {
             <ul className="list-unstyled mb-5">
               <li className="mb-2">
                 <i className="fa fa-check px-2" aria-hidden="true"></i>
-                Entrega de Boleta y/o Factura 
+                Entrega de Boleta y/o Factura
               </li>
               <li className="mb-2">
                 <i className="fa fa-check px-2" aria-hidden="true"></i>
-                Cambio de accesorios sin costo 
+                Cambio de accesorios sin costo
               </li>
               <li className="mb-2">
                 <i className="fa fa-check px-2" aria-hidden="true"></i>
