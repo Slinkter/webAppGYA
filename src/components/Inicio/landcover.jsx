@@ -16,6 +16,10 @@ export default function Landcover() {
               Empresa Comercial Especialista en instalación de cristales y
               aluminio para inmobiliarias , negocios y hogares .
             </h4>
+            <button className="mt-3  btn btn-outline-success">
+              <i class="fa-brands fa-whatsapp mx-2"></i>
+              Solicitar Presupuesto
+            </button>
           </div>
         </main>
       </div>
