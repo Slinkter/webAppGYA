@@ -1,0 +1,23 @@
+.img_presupuesto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+  filter: brightness(70%);
+  text-align: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.title_empresa {
+  color: #0b1d2c;
+  font-weight: 500;
+  font-size: 2.9rem;
+  text-shadow: 0 2px rgba(0, 0, 0, 0.1);
+}
+.p_empresa {
+  font-size: 1.2rem;
+  line-height: 2.2rem;
+}

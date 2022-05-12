@@ -16,8 +16,12 @@ body {
 
 body {
   font-family: 'Lora', serif;
+  padding: 0;
+  margin: 0;
 }
 
 html {
   scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
 }
