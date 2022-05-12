@@ -11,6 +11,7 @@ import ProductView from "./routes/View-3-Producto";
 import NostrosView from "./routes/View-4-Nosotros";
 import ClientView from "./routes/View-5-Clientes";
 import BudgetView from "./routes/View-6-Presupuesto";
+import ErrorView from "./routes/View-7-Error";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,6 +23,7 @@ root.render(
       <Route path="/us" element={<NostrosView />}></Route>
       <Route path="/client" element={<ClientView />}></Route>
       <Route path="/budget" element={<BudgetView />}></Route>
+      <Route path="*" element={<ErrorView />}></Route>
     </Routes>
   </BrowserRouter>
 );
