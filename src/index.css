@@ -1,10 +1,7 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --clr-white: #fff;
+  --radius: 0.25rem;
+  --clr-primary-5: hsl(205, 78%, 60%);
 }
 
 * {
@@ -13,9 +10,8 @@ body {
   box-sizing: border-box;
 }
 
-
 body {
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   padding: 0;
   margin: 0;
 }

@@ -40,7 +40,7 @@ export default function Footer() {
                 <h2 class="titleh2footer">Catalogos</h2>
                 <ul class=" social-media ">
                   <li>
-                    <a href="https://www.facebook.com/">
+                    <a href="https://www.facebook.com/gyacompany">
                       <i class="fa-brands fa-facebook-f"></i>
                     </a>
                   </li>

@@ -1,0 +1,34 @@
+.bg_servicios {
+  background-color: hsl(210, 36%, 96%);
+}
+
+.space_servicio{
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.products {
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 3fr));
+  }
+}
