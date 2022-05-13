@@ -1,5 +1,5 @@
 .bg_servicios {
-  background-color: hsl(210, 36%, 96%);
+  background-color: hsla(200, 84%, 96%, 0.731);
   margin: 0;
   padding: 0;
 }
@@ -12,9 +12,10 @@
 .products {
   margin: 1rem 0;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr ;
   gap: 2rem;
   text-align: center;
+ 
 }
 
 @media screen and (max-width: 420px) {

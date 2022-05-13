@@ -2,6 +2,7 @@
 .product {
   background: var(--clr-white);
   border-radius: var(--radius);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
 }
 .product img {
   border-top-left-radius: var(--radius);
