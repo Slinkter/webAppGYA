@@ -3,7 +3,7 @@ import Landcover from "../components/Inicio/landcover";
 import Footer from "../components/FooterWrapper";
 
 
-export default function BudgetView() {
+export default function ErrorView() {
   return (
     <NavWrapper>
       <Landcover />

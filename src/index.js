@@ -24,6 +24,7 @@ root.render(
       <Route path="/client" element={<ClientView />}></Route>
       <Route path="/budget" element={<BudgetView />}></Route>
       <Route path="*" element={<ErrorView />}></Route>
+      <Route path="/*" element={<ErrorView />}></Route>
     </Routes>
   </BrowserRouter>
 );
