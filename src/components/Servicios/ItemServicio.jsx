@@ -10,9 +10,10 @@ function ItemService(props) {
   </a> */
 
   return (
-    <article className="product ">
-      <img src={image || defaultImage} alt={name} />
-      <h4 className="m-4">{name || "servicio"}</h4>
+    <article className="product grow">
+    <h4 className="m-4 ">{name || "servicio"}</h4>
+      <img src={image || defaultImage} alt={name} />  
+      <a href={link} className="m-4 btn btn-outline-primary">Catálogo</a>
     </article>
   );
 }

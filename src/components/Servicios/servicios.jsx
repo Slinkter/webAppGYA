@@ -25,31 +25,31 @@ export default function Service() {
     {
       id: 1,
       image: ventana,
-      name: "Ventana",
+      name: "Ventanas",
       link: "https://bit.ly/3HuT0Eq",
     },
     {
       id: 2,
       image: Mampara,
-      name: "Mampara",
+      name: "Mamparas",
       link: "https://www.facebook.com/media/set/?set=a.414060650462803&type=3/?from=GoogleBT",
     },
     {
       id: 3,
       image: puertaducha,
-      name: "Puerta de Ducha ",
+      name: "Puertas de Ducha ",
       link: "https://www.facebook.com/media/set/?set=a.414060420462826&type=3?from=GoogleBT",
     },
     {
       id: 4,
       image: techopoli,
-      name: "Techo Policarbonato",
+      name: "Techo de Policarbonato",
       link: "https://www.facebook.com/media/set/?set=a.414060237129511&type=3?from=GoogleBT",
     },
     {
       id: 5,
       image: parapeto,
-      name: "Parapeto",
+      name: "Parapeto ",
       link: "https://www.facebook.com/media/set/?set=a.414060023796199&type=3?from=GoogleBT",
     },
     {
@@ -73,13 +73,13 @@ export default function Service() {
     {
       id: 9,
       image: lamseg,
-      name: "Lamina de seguridad",
+      name: "Lámina de seguridad",
       link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
     },
     {
       id: 10,
       image: areanado,
-      name: "Arenado de cristales",
+      name: "Empavonado de cristales",
       link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
     },
     
