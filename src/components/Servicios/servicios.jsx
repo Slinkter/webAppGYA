@@ -1,16 +1,21 @@
 import ItemService from "./ItemServicio";
-import ventana from "../../img/service/01.Ventanas/init_ventana02.jpg";
-import Mampara from "../../img/service/02.Mampara/mampara21.jpeg";
-import puertaducha from "../../img/service/03.Puertadeducha/init_ducha01.jpg";
-import techopoli from "../../img/service/04.TechoPoli/techopoli02.jpg";
-import baranda from "../../img/service/05.Barandas-parapeto-balcones/barandaacero06.jpg";
-import muro from "../../img/service/01.Ventanas/ventananova01.jpeg";
-import lamseg from "../../img/service/02.Mampara/mampara16.jpg";
-import areanado from "../../img/service/02.Mampara/mampara23.jpg";
-import puertavidrio from "../../img/service/09.Puerta-de-vidrio/puertaaluminio11.jpeg";
-import puertaserie from "../../img/service/10.Puerta-en-serie/puertaaluminio20.JPG";
-import celocias from "../../img/service/11.Celosias/init_celosias01.jpeg";
-import frenos from "../../img/service/12.Freno-hidraulico/IMG_20220212_104555.jpg";
+//
+import ventana from "../../img/webService/init01.jpg";
+import Mampara from "../../img/webService/init02.jpg";
+import puertaducha from "../../img/webService/init03.jpg";
+import techopoli from "../../img/webService/init04.jpg";
+import parapeto from "../../img/webService/init05.jpg";
+import baranda from "../../img/webService/init06.jpg";
+import balcon from "../../img/webService/init07.jpg";
+import muro from "../../img/webService/init08.jpg";
+import lamseg from "../../img/webService/init09.jpg";
+import areanado from "../../img/webService/init10.jpg";
+import puertavidrio from "../../img/webService/init11.jpg";
+import puertaserie from "../../img/webService/init12.jpg";
+import celocias from "../../img/webService/init13.jpg";
+import frenos from "../../img/webService/init14.jpg";
+import fachada from "../../img/webService/init15.jpg";
+import mosquetero from "../../img/webService/init16.jpg";
 
 
 import "./servicios.css";
@@ -43,52 +48,78 @@ export default function Service() {
     },
     {
       id: 5,
-      image: baranda,
-      name: "Barandas de acero",
+      image: parapeto,
+      name: "Parapeto",
       link: "https://www.facebook.com/media/set/?set=a.414060023796199&type=3?from=GoogleBT",
     },
     {
       id: 6,
-      image: muro,
-      name: "Muro de Cortina",
+      image: baranda,
+      name: "Barandas de Acero",
       link: "https://www.facebook.com/gyacompany?from=GoogleBT",
     },
     {
       id: 7,
+      image: balcon,
+      name: "Balcones",
+      link: "https://www.facebook.com/media/set/?set=a.414059690462899&type=3?from=GoogleBT",
+    },
+    {
+      id: 8,
+      image: muro,
+      name: "Muro de Cortina ",
+      link: "https://www.facebook.com/media/set/?set=a.114380903764114&type=3?from=GoogleBT",
+    },
+    {
+      id: 9,
       image: lamseg,
       name: "Lamina de seguridad",
       link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
     },
     {
-      id: 8,
+      id: 10,
       image: areanado,
       name: "Arenado de cristales",
       link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
     },
-    {
-      id: 9,
-      image: puertavidrio,
-      name: "Puerta de Vidrio",
-      link: "https://www.facebook.com/media/set/?set=a.414059690462899&type=3?from=GoogleBT",
-    },
-    {
-      id: 10,
-      image: puertaserie,
-      name: "Puerta en serie ",
-      link: "https://www.facebook.com/media/set/?set=a.114380903764114&type=3?from=GoogleBT",
-    },
+    
     {
       id: 11,
+      image: puertavidrio,
+      name: "Puerta de Vidrio",
+      link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    },
+    {
+      id: 12,
+      image: puertaserie,
+      name: "Puerta en serie ",
+      link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    },
+    {
+      id: 13,
       image: celocias,
       name: "Celosías",
       link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
     },
     {
-      id: 12,
+      id: 14,
       image: frenos,
       name: "Freno hidráulico ",
       link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
     },
+    
+    {
+      id: 15,
+      image: fachada,
+      name: "Fachada integral",
+      link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    },
+    {
+      id: 16,
+      image: mosquetero,
+      name: "Mosquetero ",
+      link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    }
   ];
 
   return (
