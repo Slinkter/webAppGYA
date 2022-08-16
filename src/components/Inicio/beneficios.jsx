@@ -32,7 +32,7 @@ export default function Beneficio() {
                              
                                 <hr />
                                 <p>.</p>
-                                <p className="p-2"> Ofrecemos servicio de mantenimiento para locales y negocios   </p>
+                                <p className="p-2"> Ofrecemos diversos servicios de mantenimiento para locales y negocios   </p>
                             </div>
                         </div>
                         <div className="col-sm bloque-sector03 d-flex flex-column text-white growsector">

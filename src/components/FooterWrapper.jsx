@@ -27,7 +27,7 @@ export default function Footer() {
                                 <p className="textwhite">
                                     <i class="fa fa-calendar mx-2 mb-2"></i>
                                     Lunes a Sábado
-                                    <p>8:00 am - 6:00 pm</p>
+                                    <p>9:00 am - 5:00 pm</p>
                                 </p>
                             </div>
                             <div class="col-md-4 ">
