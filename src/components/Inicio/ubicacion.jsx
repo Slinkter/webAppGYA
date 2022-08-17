@@ -5,7 +5,7 @@ export default function Ubicacion() {
       <div class=" bg_ubicacion text-center ">
         <div class="container">
           <h2 class="titleh2">UBICANOS</h2>
-          <p class="lead text-secondary">Av. los Fresnos 1256, La Molina</p>
+          <p class="lead text-secondary"> Av. Los Frenos MZ H LT. 16 - La Molina</p>
         </div>
       </div>
 

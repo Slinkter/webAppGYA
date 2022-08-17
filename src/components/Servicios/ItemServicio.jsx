@@ -5,8 +5,6 @@ import "./ItemServicio.css";
 function ItemService(props) {
     const { image, name, link } = props;
 
-  
-
     return (
         <article className="product grow">
             <h4 className="m-4 ">{name || "servicio"}</h4>

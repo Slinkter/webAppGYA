@@ -12,10 +12,10 @@ function Obra(props) {
           
             <h4 className="mt-4 ">{residencial || "residencial"}</h4>
             <hr className=" mx-5 "/>
-            <h5 className="m-1 ">{name || "empresa"}</h5>
-            <h5 className="m-1 ">{address || "dirección"}</h5>
-            <h5 className="m-1 ">{numdpto || "numdpto"} Departamentos</h5>
-            <h5 className=" mb-3 ">{year || "año"}</h5>
+            <p className="m-1 ">{name || "empresa"}</p>
+            <p className="m-1 ">{address || "dirección"}</p>
+          
+            <p className=" mb-3 ">{year || "año"}</p>
         </article>
     );
 }
