@@ -51,7 +51,7 @@ export default function NavWrapper({ children }) {
               <li className="nav-item">
                 <Link className="nav-link " to="/client">
                   {" "}
-                  Clientes
+                  Proyectos
                 </Link>
               </li>
 

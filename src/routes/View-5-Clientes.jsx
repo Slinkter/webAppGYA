@@ -6,8 +6,7 @@ import Proyects from "../components/Clientes/Proyects";
 
 export default function ClientView(){
   return (
-    <NavWrapper>
-      <Landcover />
+    <NavWrapper>    
       <Proyects/>
       <Footer />
     </NavWrapper>
