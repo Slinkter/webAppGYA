@@ -1,5 +1,17 @@
 import React from "react";
-import ventana from "../../img/sectorcontruc.jpg";
+
+import obra01 from "../../img/imgobra/obra01.jpg";
+import obra02 from "../../img/imgobra/obra02.jpg";
+import obra03 from "../../img/imgobra/obra03.jpg";
+import obra04 from "../../img/imgobra/obra04.jpg";
+import obra05 from "../../img/imgobra/obra05.jpg";
+import obra06 from "../../img/imgobra/obra06.jpg";
+
+
+import obra07 from "../../img/imgobra/obra07.jpg";
+import obra08 from "../../img/imgobra/obra08.jpg";
+import obra09 from "../../img/imgobra/obra09.jpg";
+import obra10 from "../../img/imgobra/obra10.jpg";
 import { Obra } from "./Obra";
 
 function Proyects() {
@@ -7,7 +19,7 @@ function Proyects() {
     const listProject = [
         {
             id: 1,
-            image: ventana,
+            image: obra01,
             residencial: "Residencial Miraflores",
             name: "Inversiones Beraca S.A.C.",
             address: "Miraflores",
@@ -16,7 +28,7 @@ function Proyects() {
         },
         {
             id: 2,
-            image: ventana,
+            image: obra02,
             residencial: "Mirador de la Reserva",
             name: "Inmobiliaria Beraca & Bostad S.A.C.",
             address: "Lince",
@@ -25,7 +37,7 @@ function Proyects() {
         },
         {
             id: 3,
-            image: ventana,
+            image: obra03,
             residencial: "Residencial Bambamarca",
             name: "Personal Natural",
             address: "Cajamarca",
@@ -34,7 +46,7 @@ function Proyects() {
         },
         {
             id: 4,
-            image: ventana,
+            image: obra04,
             residencial: "Residencial Edificación  ",
             name: "GHS CONSTRUCTORA S.A.C.",
             address: "San Jua de Miraflores",
@@ -43,7 +55,7 @@ function Proyects() {
         },
         {
             id: 5,
-            image: ventana,
+            image: obra05,
             residencial: "Residencial Puerta verde ",
             name: "Grupo DyM Constructora S.A.C.",
             address: "Ate  ",
@@ -52,7 +64,7 @@ function Proyects() {
         },
         {
             id: 6,
-            image: ventana,
+            image: obra06,
             residencial: "Residencial Prado. ",
             name: "Grupo DyM Constructora S.A.C.",
             address: "Ate  ",
@@ -61,16 +73,16 @@ function Proyects() {
         },
         {
             id: 7,
-            image: ventana,
-            residencial: "Residencial Prado",
+            image: obra07,
+            residencial: "Residencial Monterrico Alto",
             name: "Grupo DyM Constructora S.A.C.",
             address: "Ate  ",
             numdpto: "24",
-            year: "Febrero 2020",
+            year: "Junio 2021 ",
         },
         {
             id: 8,
-            image: ventana,
+            image: obra08,
             residencial: "Residencial Magdalena",
             name: "GHS CONSTRUCTORA S.A.C.",
             address: "Magdalena",
@@ -79,7 +91,7 @@ function Proyects() {
         },
         {
             id: 9,
-            image: ventana,
+            image: obra09,
             residencial: "Residencial Ventura",
             name: "Urbanica Proyectos Inmobiliarios S.A.C.",
             address: "San Miguel",
@@ -88,7 +100,7 @@ function Proyects() {
         },
         {
             id: 10,
-            image: ventana,
+            image: obra10,
             residencial: " Residencial Maddy",
             name: "CONSTRUCTORA E INMOBILIARIA ICASA S.A.C",
             address: "Magdalena del mar",
