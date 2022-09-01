@@ -18,11 +18,11 @@ root.render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<InicioView />}></Route>
-      <Route path="/service" element={<ServiceView />}></Route>
-      <Route path="/product" element={<ProductView />}></Route>
-      <Route path="/us" element={<NostrosView />}></Route>
-      <Route path="/client" element={<ClientView />}></Route>
-      <Route path="/budget" element={<BudgetView />}></Route>
+      <Route path="service" element={<ServiceView />}></Route>
+      <Route path="product" element={<ProductView />}></Route>
+      <Route path="us" element={<NostrosView />}></Route>
+      <Route path="client" element={<ClientView />}></Route>
+      <Route path="budget" element={<BudgetView />}></Route>
       <Route path="*" element={<ErrorView />}></Route>
     </Routes>
   </BrowserRouter>
