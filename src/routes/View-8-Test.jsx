@@ -6,17 +6,15 @@ import ws from "../bonus/ic_whatsapp.png";
 export default function TestPage() {
     return (
         <div>
-            <div>
-                <br />
-                <br />
+            <div style={{ marginleft: 10 }}>
+               
                 <table
                     style={{
-                  
                         boxShadow: "-4px 0px 18px 6px rgba(0,0,0,0.31)",
-
                         boxSizing: "border-box",
                         textIndent: 0,
-                        marginTop: 0,
+                        marginLeft:15,
+                        marginTop: 15,
                         marginBottom: 0,
                         tableLayout: "auto",
                         borderCollapse: "initial",
@@ -56,7 +54,7 @@ export default function TestPage() {
                                         src="https://gyacompany.com/static/media/logovcr.8a738518d0998756db65.png"
                                         alt="gyacompany"
                                         style={{
-                                            border: "1px solid rgb(235, 86, 86)",
+                                            border: "1px solid rgb(230, 76, 96)",
                                             borderRadius: 50,
                                             display: "block",
                                             marginRight: 7,
@@ -152,7 +150,7 @@ export default function TestPage() {
                                         width: 4,
                                         height: 95,
                                         borderRadius: 50,
-                                        marginTop:20,
+                                        marginTop: 20,
                                         marginRight: 0,
                                         cursor: "pointer",
                                         backgroundColor: "rgb(235, 86, 86)",
