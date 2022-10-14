@@ -78,3 +78,15 @@
     font-size: 1.2rem;
     text-shadow: 0 2px rgba(0, 10, 0, 0.5);
 }
+
+.colorblue {
+    color: #0089ff;
+    font-size: 3.4rem;
+    text-shadow: 0 2px rgba(0, 1, 0, 0.3);
+}
+
+.underparrafo {
+    text-decoration: underline solid #fa2727;
+    font-weight: bold;
+    color: #fa2727;
+}

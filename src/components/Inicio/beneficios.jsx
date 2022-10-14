@@ -43,8 +43,7 @@ export default function Beneficio() {
             <article>
                 <div class=" bg_ubicacion text-center ">
                     <div class="container">
-                        <h2 class="titleh2">EMPRESA</h2>
-                        <p class="lead text-secondary">Canales de atención </p>
+                        <h2 class="title_empresa colorblue">Empresa </h2>
                     </div>
                 </div>
 
@@ -56,10 +55,14 @@ export default function Beneficio() {
                                 <span class="text-muted"> Online</span>
                             </h2>
                             <p className="mb-4  mr-5 p_empresa">
-                                Realizamos visitas a domicilio sin costo alguno
-                                o puedes enviarnos sus requerimientos y le
-                                enviamos un presupuesto digital vía whatsapp o
-                                messenger en menos de 24 horas .
+                                Realizamos visitas a domicilio  {" "}
+                                <span className="underparrafo">
+                                    {" "}
+                                    sin costo{" "}
+                                </span>🏠 
+                                o puedes escribirnos vía whatsapp ✍️ sobre un
+                                servicio que deseas y te enviamos un
+                                presupuesto📋 .
                             </p>
                             <ul className="list-unstyled mb-5">
                                 <li className="mb-2">
@@ -74,7 +77,7 @@ export default function Beneficio() {
                                         className="fa fa-check px-2"
                                         aria-hidden="true"
                                     ></i>
-                                    Visita tecnica sin costo
+                                    Visita técnica sin costo
                                 </li>
                                 <li className="mb-2">
                                     <i
