@@ -5,14 +5,13 @@ import Footer from "../components/FooterWrapper";
 import Beneficio from "../components/Inicio/beneficios";
 
 export default function InicioView() {
-  return (
-    <NavWrapper>
-      <Landcover />
+    return (
+        <NavWrapper>
+            <Landcover />
 
-      <Beneficio/>
-      <Ubicacion />
-      <Footer />
-
-    </NavWrapper>
-  );
+            <Beneficio />
+            <Ubicacion />
+            <Footer />
+        </NavWrapper>
+    );
 }
