@@ -4,7 +4,7 @@ export default function Landcover() {
     return (
         <section className="container ">
             <div className="height_cover ">
-                <main className="row featurette animated fadeInUp ">
+                <main className="row featurette animated fadeIn  ">
                     <div className="col-md-5 order-md-1 m-auto text-center  ">
                         <img className="img_logo " src={imglogo} alt="" />
                     </div>

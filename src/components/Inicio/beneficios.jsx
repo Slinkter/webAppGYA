@@ -47,20 +47,20 @@ export default function Beneficio() {
                     </div>
                 </div>
 
-                <div className="container-fluid d-flex flex-column">
-                    <div className="row my-auto">
+                <div className="container-fluid ">
+                    <div className="row my-auto ">
                         <div className="col-lg-4 col-md-10 col-sm-8 m-auto py-5 my-5 px-4">
                             <h2 class="mb-4 title_empresa">
                                 Presupuestos{" "}
                                 <span class="text-muted"> Online</span>
                             </h2>
                             <p className="mb-4  mr-5 p_empresa">
-                                Realizamos visitas a domicilio  {" "}
+                                Realizamos visitas a domicilio{" "}
                                 <span className="underparrafo">
                                     {" "}
                                     sin costo{" "}
-                                </span>🏠 
-                                o puedes escribirnos vía whatsapp ✍️ sobre un
+                                </span>
+                                🏠 o puedes escribirnos vía whatsapp ✍️ sobre un
                                 servicio que deseas y te enviamos un
                                 presupuesto📋 .
                             </p>
@@ -178,8 +178,9 @@ export default function Beneficio() {
                                 <span class="text-muted"> y Calidad</span>
                             </h2>
                             <p className="mb-4  mr-5 p_empresa">
-                                Nuestros servicios de instalación tiene una
-                                garantía de 6 meses .
+                                Ofrecemos materiales que cumplen con los
+                                estándares de calidad y los productos instalados
+                                tienen una garantía de 6 meses .
                             </p>
                             <ul className="list-unstyled mb-5">
                                 <li className="mb-2">
@@ -202,6 +203,13 @@ export default function Beneficio() {
                                         aria-hidden="true"
                                     ></i>
                                     Certificado de garantía
+                                </li>
+                                <li className="mb-2">
+                                    <i
+                                        className="fa fa-check px-2"
+                                        aria-hidden="true"
+                                    ></i>
+                                    Proveedores nacionales 
                                 </li>
                             </ul>
                             <div className="text-center"></div>

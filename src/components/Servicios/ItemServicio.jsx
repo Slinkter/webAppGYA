@@ -6,12 +6,14 @@ function ItemService(props) {
     const { image, name, link } = props;
 
     return (
-        <article className="product grow">
-            <h4 className="m-4 ">{name || "servicio"}</h4>
+        <article className="product growServicio">
+            <h4 className="m-4  pSize ">{name || "servicio"}</h4>
+
             <img src={image || defaultImage} alt={name} />
+
             <a
                 href={link}
-                className="m-4 btn btn-outline-primary btn-lg btn-block"
+                className="mx-4 my-4 btn btn-primary btn-lg "
             >
                 Catálogo
             </a>

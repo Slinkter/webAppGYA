@@ -1,5 +1,5 @@
 .bg_servicios {
-    background-color: hsla(200, 84%, 96%, 0.431);
+    /*  background-color: hsla(200, 84%, 96%, 0.431); */
     margin: 0;
     padding: 0;
 }
@@ -12,8 +12,8 @@
 .products {
     margin: 1rem 0;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 3fr));
-    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+    gap: 3rem;
     text-align: center;
 }
 
@@ -32,5 +32,35 @@
 @media screen and (max-width: 992px) {
     .products {
         grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    }
+}
+
+.pColorRed {
+    color: #fa2727;
+    font-size: 3.2rem;
+    text-shadow: 0 2px rgba(0, 1, 0, 0.3);
+}
+
+.pColorBlue {
+    color: #0089ff;
+    text-shadow: 0 2px rgba(0, 1, 0, 0.1);
+}
+.pSize {
+    font-size: 1.6rem;
+}
+
+@media (max-width: 420px) {
+    .pColorRed {
+        color: #fa2727;
+        font-size: 2.5rem;
+        text-shadow: 0 2px rgba(0, 1, 0, 0.3);
+    }
+    
+    .pColorBlue {
+        color: #0089ff;
+        text-shadow: 0 2px rgba(0, 1, 0, 0.1);
+    }
+    .pSize {
+        font-size: 1.6rem;
     }
 }
