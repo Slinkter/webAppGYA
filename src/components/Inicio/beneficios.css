@@ -1,46 +1,80 @@
 .img_presupuesto {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  
-  filter: brightness(70%);
-  text-align: center;
-  background-position: center center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+    filter: brightness(70%);
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 .title_empresa {
-  color: #0b1d2c;
-  font-weight: 500;
-  font-size: 2.9rem;
-  text-shadow: 0 2px rgba(0, 0, 0, 0.1);
+    color: #0b1d2c;
+    font-weight: 500;
+    font-size: 2.9rem;
+    text-shadow: 0 2px rgba(0, 0, 0, 0.1);
 }
 .p_empresa {
-  font-size: 1.2rem;
-  line-height: 2.2rem;
+    font-size: 1.2rem;
+    line-height: 2.2rem;
 }
 
 /* */
 
 .bloque-sector01 {
-  background: linear-gradient(90deg, rgba(32, 30, 30, 0.86), rgba(0, 0, 0, 0.86)), url("../../img/sectorcontruc.jpg") center center;
-  background-size: cover;
-  min-height: 90vh;
-  transition: all 0.3s linear 0s;
+    background: linear-gradient(
+            90deg,
+            rgba(98, 89, 89, 0.666),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("../../img/sectorcontruc.jpg");
+
+    background-size: cover;
+    min-height: 90vh;
+    transition: all 0.3s linear 0s;
 }
 
 .bloque-sector02 {
-  background: linear-gradient(90deg, rgba(32, 30, 30, 0.86), rgba(0, 0, 0, 0.86)), url("../../img/sectoroffices.jpg") center center;
-  background-size: cover;
-  min-height: 90vh;
-  transition: all 0.3s linear 0s;
+    background: linear-gradient(
+            90deg,
+            rgba(98, 89, 89, 0.666),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("../../img/sectoroffices.jpg") center center;
+
+    background-size: cover;
+    min-height: 90vh;
+    transition: all 0.3s linear 0s;
 }
 
 .bloque-sector03 {
-  background: linear-gradient(90deg, rgba(32, 30, 30, 0.86), rgba(0, 0, 0, 0.86)), url("../../img/sectorhogar.jpg") center center;
-  background-size: cover;
-  min-height: 90vh;
-  transition: all 0.3s linear 0s;
+    background: linear-gradient(
+            90deg,
+            rgba(98, 89, 89, 0.666),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("../../img/sectorhogar.jpg") center center;
+
+    background-size: cover;
+    min-height: 90vh;
+    transition: all 0.3s linear 0s;
+}
+
+.titleClient {
+    color: #f7f7f7;
+    font-weight: 600;
+    font-size: 2.5rem;
+    text-shadow: 0 2px rgba(0, 10, 0, 0.7);
+    margin-bottom: 20px;
+}
+.parrafoClient {
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 2.2rem;
+    color: #f7f7f7;
+    font-size: 1.2rem;
+    text-shadow: 0 2px rgba(0, 10, 0, 0.5);
 }

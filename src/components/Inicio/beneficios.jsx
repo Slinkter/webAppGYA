@@ -1,10 +1,10 @@
-import presupuesto from "../../img/presupuesto.jpg";
 import budget from "../../img/budget.jpg";
 import aluminum from "../../img/aluminum.jpg";
-import documents from "../../img/document.jpg";
 import calidad from "../../img/calidad.jpg";
+//
 import "./beneficios.css";
 export default function Beneficio() {
+    //clientes
     return (
         <section>
             <article>
@@ -12,37 +12,29 @@ export default function Beneficio() {
                     <div className="row">
                         <div className="col-sm bloque-sector01 d-flex  text-white ">
                             <div className="container m-auto text-center  ">
-                                <p>.</p>
-                                <hr />
-                                <h2 className="h2-block-text  ">
-                                    Constructoras
-                                </h2>
-                                <hr />
-                                <p>.</p>
-
-                                <p className="p-2">Tenemos de más de 10 proyectos de obra de construcción entregados   </p>
+                                <h2 className=" titleClient ">Constructoras</h2>
+                                <p className="p-2 parrafoClient">
+                                    Tenemos de más de 10 proyectos de obra de
+                                    construcción entregados.
+                                </p>
                             </div>
-                           
                         </div>
                         <div className="col-sm bloque-sector02 d-flex flex-column text-white growsector ">
                             <div className="container m-auto text-center ">
-                                <p>.</p>
-                                <hr />
-                                <h2 className="h2-block-text ">Negocios</h2>
-                             
-                                <hr />
-                                <p>.</p>
-                                <p className="p-2"> Ofrecemos diversos servicios de mantenimiento para locales y negocios   </p>
+                                <h2 className="titleClient ">Negocios</h2>
+                                <p className="p-2 parrafoClient">
+                                    Ofrecemos diversos servicios de
+                                    mantenimiento para locales y negocios{" "}
+                                </p>
                             </div>
                         </div>
                         <div className="col-sm bloque-sector03 d-flex flex-column text-white growsector">
                             <div className="container m-auto text-center">
-                                <p>.</p>
-                                <hr />
-                                <h2 className="h2-block-text  ">Hogares</h2>
-                                <hr />
-                                <p>.</p>
-                                <p className="p-2"> Tenemos materiales de calidad en diversos productos y servicios   </p>
+                                <h2 className="titleClient">Hogares</h2>
+                                <p className="p-2 parrafoClient">
+                                    Tenemos materiales de calidad en diversos
+                                    productos y servicios
+                                </p>
                             </div>
                         </div>
                     </div>

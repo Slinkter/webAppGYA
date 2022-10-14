@@ -8,7 +8,6 @@ export default function InicioView() {
     return (
         <NavWrapper>
             <Landcover />
-
             <Beneficio />
             <Ubicacion />
             <Footer />
