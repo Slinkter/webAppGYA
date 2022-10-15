@@ -7,11 +7,11 @@ import obra04 from "../../img/imgobra/obra04.jpg";
 import obra05 from "../../img/imgobra/obra05.jpg";
 import obra06 from "../../img/imgobra/obra06.jpg";
 
-
 import obra07 from "../../img/imgobra/obra07.jpg";
 import obra08 from "../../img/imgobra/obra08.jpg";
 import obra09 from "../../img/imgobra/obra09.jpg";
 import obra10 from "../../img/imgobra/obra10.jpg";
+import obra11 from "../../img/imgobra/obra11.jpg";
 import { Obra } from "./Obra";
 
 function Proyects() {
@@ -106,6 +106,15 @@ function Proyects() {
             address: "Magdalena del mar",
             numdpto: "62",
             year: "Mayo 2022 ",
+        },
+        {
+            id: 11,
+            image: obra11,
+            residencial: " Residencial Vidamor",
+            name: "Grupo DyM Constructora S.A.C.",
+            address: "ATE",
+            numdpto: "60",
+            year: "Diciembre 2022 ",
         },
     ];
     return (
