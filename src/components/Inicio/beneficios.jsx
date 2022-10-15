@@ -10,6 +10,15 @@ export default function Beneficio() {
             <article>
                 <div className="container-fluid">
                     <div className="row">
+                        <div class=" bg_ubicacion text-center ">
+                            <div class="container">
+                                <h2 class="titleh2">Clientes</h2>
+                                <p class="lead text-secondary">
+                                    Atenemos diversos clientes al nivel nacional
+                                    de diferentes sectores
+                                </p>
+                            </div>
+                        </div>
                         <div className="col-sm bloque-sector01 d-flex  text-white ">
                             <div className="container m-auto text-center  ">
                                 <h2 className=" titleClient ">Constructoras</h2>
@@ -43,7 +52,11 @@ export default function Beneficio() {
             <article>
                 <div class=" bg_ubicacion text-center ">
                     <div class="container">
-                        <h2 class="title_empresa colorblue">Empresa </h2>
+                        <h2 class="titleh2">Empresa</h2>
+                        <p class="lead text-secondary">
+                            Contamos con 20 años de experiencia instalación de
+                            cristales y aluminio
+                        </p>
                     </div>
                 </div>
 
@@ -51,7 +64,7 @@ export default function Beneficio() {
                     <div className="row my-auto ">
                         <div className="col-lg-4 col-md-10 col-sm-8 m-auto py-5 my-5 px-4">
                             <h2 class="mb-4 title_empresa">
-                                Presupuestos{" "}
+                                Presupuestos
                                 <span class="text-muted"> Online</span>
                             </h2>
                             <p className="mb-4  mr-5 p_empresa">
@@ -209,7 +222,7 @@ export default function Beneficio() {
                                         className="fa fa-check px-2"
                                         aria-hidden="true"
                                     ></i>
-                                    Proveedores nacionales 
+                                    Proveedores nacionales
                                 </li>
                             </ul>
                             <div className="text-center"></div>
