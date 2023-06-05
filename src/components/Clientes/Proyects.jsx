@@ -140,7 +140,7 @@ function Proyects() {
           </p>
         </div>
         <section className="products animated fadeIn">
-          {listProject.map((servicio) => {
+          {listProject.reverse().map((servicio) => {
             return <Obra key={servicio.id} {...servicio} />;
           })}
         </section>
