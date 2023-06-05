@@ -6,7 +6,6 @@ import obra03 from "../../img/imgobra/obra03.jpg";
 import obra04 from "../../img/imgobra/obra04.jpg";
 import obra05 from "../../img/imgobra/obra05.jpg";
 import obra06 from "../../img/imgobra/obra06.jpg";
-
 import obra07 from "../../img/imgobra/obra07.jpg";
 import obra08 from "../../img/imgobra/obra08.jpg";
 import obra09 from "../../img/imgobra/obra09.jpg";
@@ -17,7 +16,7 @@ import { Obra } from "./Obra";
 
 function Proyects() {
   //image, residencial, name, address, numdpto, year
-  const listProject = [
+  const projects = [
     {
       id: 1,
       image: obra01,
@@ -140,7 +139,7 @@ function Proyects() {
           </p>
         </div>
         <section className="products animated fadeIn">
-          {listProject.reverse().map((servicio) => {
+          {projects.reverse().map((servicio) => {
             return <Obra key={servicio.id} {...servicio} />;
           })}
         </section>

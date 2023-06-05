@@ -3,8 +3,7 @@ import defaultImage from "../../img/calidad.jpg";
 
 import "./Obra.css";
 
-function Obra(props) {
-  const { image, residencial, name, address, numdpto, year } = props;
+function Obra({ image, residencial, name, address, numdpto, year }) {
   return (
     <article className="obra grow">
       <img src={image || defaultImage} alt={residencial} />
