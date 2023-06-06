@@ -1,9 +1,9 @@
 import fb from "../bonus/ic_fb.png";
 import ig from "../bonus/ic_instagram.png";
 import ws from "../bonus/ic_whatsapp.png";
-import global from "../bonus/global.png";
-import location from "../bonus/location.png";
-import phone from "../bonus/phone.png";
+import global from "../bonus/ic_website.png";
+import location from "../bonus/ic_location.png";
+import phone from "../bonus/whatsapp.png";
 
 export default function TestPage() {
   const styleCard = {
@@ -63,7 +63,6 @@ export default function TestPage() {
                       marginRight: 7,
                       float: "left",
                     }}
-                    jslog="138226; u014N:xr6bB; 53:W3RydWUsMV0."
                     width={89}
                     height={89}
                   />
@@ -101,7 +100,7 @@ export default function TestPage() {
                     Gerente General
                   </span>
                 </p>
-                <div id="sociales">
+                <div>
                   <a
                     href="https://facebook.com/gyacompany"
                     target="_blank"
@@ -205,7 +204,7 @@ export default function TestPage() {
                   }}
                 >
                   <img
-                    src={phone}
+                    src={ws}
                     alt=""
                     style={{
                       marginTop: 3,
