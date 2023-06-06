@@ -1,10 +1,12 @@
 import React from "react";
-import fb from "../bonus/ic_fb.png";
-import ig from "../bonus/ic_instagram.png";
-import ws from "../bonus/ic_whatsapp.png";
-import global from "../bonus/ic_web.png";
-import location from "../bonus/ic_location.png";
+import fb from "../img/firma/ic_fb.png";
+import ig from "../img/firma/ic_instagram.png";
+import ws from "../img/firma/ic_whatsapp.png";
+import global from "../img/firma/ic_web.png";
+import location from "../img/firma/ic_location.png";
+//
 import logoGlass from "../img/LogoCompanytrans.png";
+//
 import "../bonus/Firma.css";
 
 const TestPage = () => {
@@ -39,53 +41,31 @@ const TestPage = () => {
     borderRadius: 15,
   };
 
-  const urlIconLogo = logoGlass;
-
   return (
-    <div className="font-firma">
+    <div className="">
       <div style={{ marginLeft: 15, marginRight: 15 }}>
         <table style={styleCard}>
           <tbody>
-            <tr style={{ border: "none" }}>
-              <td style={{ padding: "0px 4px 0px 0px", background: "none" }}>
-                <div
-                  className="font-firma"
-                  style={{
-                    padding: "0px 4px 0px 0px",
-                    background: "none",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    justifyContent: "center",
-                  }}
-                >
-                  <img
-                    src={urlIconLogo}
-                    alt="gyacompany"
-                    style={{
-                      display: "block",
-                      marginRight: 7,
-                      float: "left",
-                      marginTop: -15,
-                    }}
-                    width={85}
-                    height={85}
-                  />
-                  <p
-                    style={{
-                      marginTop: -15,
-                      fontSize: 16,
-                      color: "rgb(230, 76, 96)",
-                      height: 16,
-                      display: "block",
-                    }}
-                  >
-                    Glass & Aluminum <br />
-                    <span>Company S.A.C.</span>
-                  </p>
-                </div>
+            <tr>
+              <td
+                className="font-firma"
+                style={{
+                  padding: "10px 14px 0px 10px",
+                  background: "none",
+                  display: "flex",
+                  flexDirection: "column",
+                  alignItems: "center",
+                  justifyContent: "center",
+                }}
+              >
+                <img
+                  src={logoGlass}
+                  alt="gyacompany"
+                  width={150}
+                  height={150}
+                />
               </td>
-
+              {/* barra rojas  */}
               <td
                 style={{
                   border: "0px solid rgb(229, 231, 235)",
@@ -107,6 +87,7 @@ const TestPage = () => {
                   }}
                 />
               </td>
+              {/* nombre  */}
               <td
                 className="font-firma"
                 style={{
@@ -143,64 +124,48 @@ const TestPage = () => {
                 </p>
                 <div>
                   <a
-                    href="https://gyacompany.com"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    href="https://www.gyacompany.com"
                     style={{
                       marginRight: 8,
-                      display: "inline-block",
                     }}
                   >
-                    <img src={global} alt="" width={20} height={20} />
-                  </a>
-
-                  <a
-                    href="https://facebook.com/gyacompany"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                    style={{
-                      marginRight: 8,
-                      display: "inline-block",
-                    }}
-                  >
-                    <img src={fb} alt="" />
+                    <img src={global} alt="" width="20" height="20" />
                   </a>
                   <a
-                    href="https://wa.me/996537435"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    href="https://wwww.facebook.com/gyacompany"
                     style={{
                       marginRight: 8,
-                      display: "inline-block",
                     }}
                   >
-                    <img src={ws} alt="" />
+                    <img src={fb} alt="" width="20" height="20" />
                   </a>
                   <a
-                    href="https://instagram.com/gyacompany"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
+                    href="https://www.wa.me/996537435"
                     style={{
                       marginRight: 8,
-                      display: "inline-block",
                     }}
                   >
-                    <img src={ig} alt="" />
+                    <img src={ws} alt="" width="20" height="20" />
                   </a>
-
+                  <a
+                    href="https://www.instagram.com/gyacompany"
+                    style={{
+                      marginRight: 8,
+                    }}
+                  >
+                    <img src={ig} alt="" width="20" height="20" />
+                  </a>
                   <a
                     href="https://goo.gl/maps/ofXP2wqpy1h3G4E68"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
                     style={{
                       marginRight: 8,
-                      display: "inline-block",
                     }}
                   >
-                    <img src={location} alt="" width={20} height={20} />
+                    <img src={location} alt="" width="20" height="20" />
                   </a>
                 </div>
               </td>
+              {/*  */}
             </tr>
           </tbody>
         </table>
