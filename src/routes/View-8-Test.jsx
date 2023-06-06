@@ -3,7 +3,7 @@ import ig from "../bonus/ic_instagram.png";
 import ws from "../bonus/ic_whatsapp.png";
 import global from "../bonus/ic_website.png";
 import location from "../bonus/ic_location.png";
-import phone from "../bonus/whatsapp.png";
+import "../bonus/Firma.css";
 
 export default function TestPage() {
   const styleCard = {
@@ -41,7 +41,7 @@ export default function TestPage() {
     "https://gyacompany.com/static/media/logovcr.8a738518d0998756db65.png";
 
   return (
-    <div>
+    <div className="font-firma ">
       <div style={{ marginleft: 10 }}>
         <table style={styleCard}>
           <tbody>
@@ -52,27 +52,73 @@ export default function TestPage() {
                   background: "none",
                 }}
               >
-                <a href="/">
+                <a
+                  href="/"
+                  className="font-firma "
+                  style={{
+                    padding: "0px 4px 0px 0px",
+                    background: "none",
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "center",
+                    justifyContent: "center",
+                  }}
+                >
                   <img
                     src={urlIconLogo}
                     alt="gyacompany"
                     style={{
-                      border: "1px solid rgb(230, 76, 96)",
-                      borderRadius: 50,
                       display: "block",
                       marginRight: 7,
                       float: "left",
+                      marginTop: -15,
                     }}
-                    width={89}
-                    height={89}
+                    width={85}
+                    height={85}
                   />
+                  <p
+                    style={{
+                      marginTop: -20,
+                      fontSize: 16,
+                      color: "rgb(230, 76, 96)",
+                      height: 18,
+                      display: "block",
+                    }}
+                  >
+                    Glass & Aluminum <br />
+                    <span>Company S.A.C.</span>
+                  </p>
                 </a>
               </td>
+
               <td
                 style={{
-                  textAlign: "left",
+                  border: "0px solid rgb(229, 231, 235)",
+                  boxSizing: "border-box",
+                  minWidth: "auto",
+                  padding: 0,
+                }}
+              >
+                <div
+                  className="gmail-color-signature"
+                  style={{
+                    border: "1px solid rgb(235, 86, 86)",
+                    boxSizing: "border-box",
+                    width: 4,
+                    height: 120,
+                    borderRadius: 50,
+                    cursor: "pointer",
+                    backgroundColor: "rgb(235, 86, 86)",
+                  }}
+                />
+              </td>
+              <td
+                className="font-firma "
+                style={{
+                  textAlign: "center",
                   background: "none",
-                  padding: "0px 14px 0px 3px",
+                  padding: "0px 14px 0px 24px",
+                  margin: 150,
                 }}
               >
                 <p
@@ -83,7 +129,7 @@ export default function TestPage() {
                     display: "block",
                   }}
                 >
-                  Juan Carlos Cueva
+                  Juan Carlos Cueva Carrasco
                 </p>
                 <p
                   style={{
@@ -101,6 +147,18 @@ export default function TestPage() {
                   </span>
                 </p>
                 <div>
+                  <a
+                    href="https://instagram.com/gyacompany"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    style={{
+                      marginRight: 8,
+                      display: "inline-block",
+                    }}
+                  >
+                    <img src={global} alt="" />
+                  </a>
+
                   <a
                     href="https://facebook.com/gyacompany"
                     target="_blank"
@@ -134,115 +192,19 @@ export default function TestPage() {
                   >
                     <img src={ig} alt="" />
                   </a>
+
+                  <a
+                    href="https://instagram.com/gyacompany"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    style={{
+                      marginRight: 8,
+                      display: "inline-block",
+                    }}
+                  >
+                    <img src={location} alt="" />
+                  </a>
                 </div>
-              </td>
-              <td
-                style={{
-                  border: "0px solid rgb(229, 231, 235)",
-                  boxSizing: "border-box",
-                  minWidth: "auto",
-                  padding: 0,
-                }}
-              >
-                <div
-                  className="gmail-color-signature"
-                  style={{
-                    border: "1px solid rgb(235, 86, 86)",
-                    boxSizing: "border-box",
-                    width: 4,
-                    height: 95,
-                    borderRadius: 50,
-                    marginTop: 20,
-                    marginRight: 0,
-                    cursor: "pointer",
-                    backgroundColor: "rgb(235, 86, 86)",
-                  }}
-                />
-                <br />
-              </td>
-              <td
-                style={{
-                  background: "none",
-                  padding: "10px 0px 7px 14px",
-                }}
-              >
-                <span
-                  style={{
-                    marginBottom: 4,
-                    fontSize: 14,
-                    color: "rgb(105, 116, 119)",
-
-                    height: 24,
-                    display: "block",
-                    textAlign: "left",
-                  }}
-                >
-                  <img
-                    src={global}
-                    alt=""
-                    style={{
-                      marginTop: 3,
-                      float: "left",
-                      marginRight: 7,
-
-                      display: "block",
-                    }}
-                    width={20}
-                    height={20}
-                  />
-                  <a href="https://gyacompany.com/">gyacompany.com</a>
-                </span>
-                <span
-                  style={{
-                    marginBottom: 4,
-                    fontSize: 14,
-                    color: "rgb(105, 116, 119)",
-                    marginTop: 8,
-                    height: 24,
-                    display: "block",
-                    textAlign: "left",
-                  }}
-                >
-                  <img
-                    src={ws}
-                    alt=""
-                    style={{
-                      marginTop: 3,
-                      float: "left",
-                      marginRight: 7,
-
-                      display: "block",
-                    }}
-                    width={20}
-                    height={20}
-                  />
-                  996-537-435
-                </span>
-                <span
-                  style={{
-                    marginBottom: 4,
-                    fontSize: 14,
-                    color: "rgb(105, 116, 119)",
-                    marginTop: 8,
-                    height: 24,
-                    display: "block",
-                    textAlign: "left",
-                  }}
-                >
-                  <img
-                    src={location}
-                    alt=""
-                    style={{
-                      float: "left",
-                      marginRight: 7,
-
-                      display: "block",
-                    }}
-                    width={20}
-                    height={20}
-                  />
-                  Lima,Peru
-                </span>
               </td>
             </tr>
           </tbody>
