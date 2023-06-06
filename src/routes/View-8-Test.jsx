@@ -14,8 +14,8 @@ const TestPage = () => {
     boxShadow: "-4px 0px 18px 6px rgba(0,0,0,0.11)",
     boxSizing: "border-box",
     textIndent: 0,
-    marginLeft: 15,
-    marginTop: 15,
+    marginLeft: 10,
+    marginTop: 10,
     marginBottom: 0,
     tableLayout: "auto",
     borderCollapse: "initial",
@@ -36,21 +36,19 @@ const TestPage = () => {
     textDecorationStyle: "initial",
     textDecorationColor: "initial",
     fontFamily: "arial",
-    height: 170,
-    padding: "16px 18px",
+    height: 120,
+    padding: "5px 6px",
     borderRadius: 15,
   };
 
   return (
     <div className="">
-      <div style={{ marginLeft: 15, marginRight: 15 }}>
+      <div style={{ marginRight: 15 }}>
         <table style={styleCard}>
           <tbody>
             <tr>
               <td
-                className="font-firma"
                 style={{
-                  padding: "10px 14px 0px 10px",
                   background: "none",
                   display: "flex",
                   flexDirection: "column",
@@ -59,10 +57,14 @@ const TestPage = () => {
                 }}
               >
                 <img
+                  style={{
+                    marginTop: "10px",
+                    paddingTop: "5px",
+                  }}
                   src={logoGlass}
                   alt="gyacompany"
-                  width={150}
-                  height={150}
+                  width={140}
+                  height={140}
                 />
               </td>
               {/* barra rojas  */}
@@ -80,7 +82,7 @@ const TestPage = () => {
                     border: "1px solid rgb(235, 86, 86)",
                     boxSizing: "border-box",
                     width: 4,
-                    height: 120,
+                    height: 100,
                     borderRadius: 50,
                     cursor: "pointer",
                     backgroundColor: "rgb(235, 86, 86)",
@@ -93,77 +95,43 @@ const TestPage = () => {
                 style={{
                   textAlign: "center",
                   background: "none",
-                  padding: "0px 14px 0px 24px",
-                  margin: 150,
+                  padding: "0px 24px 0px 24px",
                 }}
               >
                 <p
                   style={{
-                    fontSize: 20,
+                    color: "rgb(235, 86, 86)",
+                    margin: 1,
+                  }}
+                >
+                  GLASS & ALUMINUM COMPANY S.A.C.
+                </p>
+                <p
+                  style={{
+                    fontSize: 18,
                     color: "rgb(42, 59, 71)",
-                    height: 20,
-                    display: "block",
+                    margin: 0,
                   }}
                 >
                   Juan Carlos Cueva Carrasco
                 </p>
                 <p
                   style={{
-                    fontSize: 14,
-                    margin: "0px 0px 8px",
+                    margin: 0,
+                    color: "rgb(235, 86, 86))",
                   }}
                 >
-                  <span
-                    style={{
-                      color: "rgb(105, 116, 119)",
-                      margin: 0,
-                    }}
-                  >
-                    Gerente General
-                  </span>
+                  Gerente General
                 </p>
-                <div>
-                  <a
-                    href="https://www.gyacompany.com"
-                    style={{
-                      marginRight: 8,
-                    }}
-                  >
-                    <img src={global} alt="" width="20" height="20" />
-                  </a>
-                  <a
-                    href="https://wwww.facebook.com/gyacompany"
-                    style={{
-                      marginRight: 8,
-                    }}
-                  >
-                    <img src={fb} alt="" width="20" height="20" />
-                  </a>
-                  <a
-                    href="https://www.wa.me/996537435"
-                    style={{
-                      marginRight: 8,
-                    }}
-                  >
-                    <img src={ws} alt="" width="20" height="20" />
-                  </a>
-                  <a
-                    href="https://www.instagram.com/gyacompany"
-                    style={{
-                      marginRight: 8,
-                    }}
-                  >
-                    <img src={ig} alt="" width="20" height="20" />
-                  </a>
-                  <a
-                    href="https://goo.gl/maps/ofXP2wqpy1h3G4E68"
-                    style={{
-                      marginRight: 8,
-                    }}
-                  >
-                    <img src={location} alt="" width="20" height="20" />
-                  </a>
-                </div>
+                <p
+                  style={{
+                    fontSize: 12,
+                    color: "rgb(235, 86, 86))",
+                    margin: 0,
+                  }}
+                >
+                  996-537-435
+                </p>
               </td>
               {/*  */}
             </tr>
@@ -175,3 +143,46 @@ const TestPage = () => {
 };
 
 export default TestPage;
+
+/*    <div>
+     <a
+       href="https://gyacompany.com"
+       style={{
+         marginRight: 8,
+       }}
+     >
+       <img src={url01} alt="" width="20" height="20" />
+     </a>
+     <a
+       href="https://wwww.facebook.com/gyacompany"
+       style={{
+         marginRight: 8,
+       }}
+     >
+       <img src={url02} alt="" width="20" height="20" />
+     </a>
+     <a
+       href="https://wa.me/996537435"
+       style={{
+         marginRight: 8,
+       }}
+     >
+       <img src={ulr03} alt="" width="20" height="20" />
+     </a>
+     <a
+       href="https://www.instagram.com/gyacompany"
+       style={{
+         marginRight: 8,
+       }}
+     >
+       <img src={ulr04} alt="" width="20" height="20" />
+     </a>
+     <a
+       href="https://goo.gl/maps/ofXP2wqpy1h3G4E68"
+       style={{
+         marginRight: 8,
+       }}
+     >
+       <img src={ulr05} alt="" width="20" height="20" />
+     </a>
+   </div>; */
