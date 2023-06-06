@@ -16,17 +16,17 @@ import TestPage from "./routes/View-8-Test";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-    <BrowserRouter>
-        <Routes>
-            <Route path="/" element={<InicioView />}></Route>
-            <Route path="service" element={<ServiceView />}></Route>
-            {<Route path="product" element={<ProductView />}></Route>}
-            <Route path="us" element={<NostrosView />}></Route>
-            <Route path="client" element={<ClientView />}></Route>
-            <Route path="budget" element={<BudgetView />}></Route>
-            <Route path="test" element={<TestPage />}></Route>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<InicioView />} />
+      <Route path="service" element={<ServiceView />} />
+      <Route path="product" element={<ProductView />} />
+      <Route path="us" element={<NostrosView />} />
+      <Route path="client" element={<ClientView />} />
+      <Route path="budget" element={<BudgetView />} />
+      <Route path="test" element={<TestPage />} />
 
-            <Route path="*" element={<ErrorView />}></Route>
-        </Routes>
-    </BrowserRouter>
+      <Route path="*" element={<ErrorView />} />
+    </Routes>
+  </BrowserRouter>
 );

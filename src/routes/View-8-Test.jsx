@@ -1,11 +1,13 @@
+import React from "react";
 import fb from "../bonus/ic_fb.png";
 import ig from "../bonus/ic_instagram.png";
 import ws from "../bonus/ic_whatsapp.png";
-import global from "../bonus/ic_website.png";
+import global from "../bonus/ic_web.png";
 import location from "../bonus/ic_location.png";
+import logoGlass from "../img/LogoCompanytrans.png";
 import "../bonus/Firma.css";
 
-export default function TestPage() {
+const TestPage = () => {
   const styleCard = {
     boxShadow: "-4px 0px 18px 6px rgba(0,0,0,0.11)",
     boxSizing: "border-box",
@@ -37,24 +39,17 @@ export default function TestPage() {
     borderRadius: 15,
   };
 
-  const urlIconLogo =
-    "https://gyacompany.com/static/media/logovcr.8a738518d0998756db65.png";
+  const urlIconLogo = logoGlass;
 
   return (
-    <div className="font-firma ">
-      <div style={{ marginleft: 10 }}>
+    <div className="font-firma">
+      <div style={{ marginLeft: 15, marginRight: 15 }}>
         <table style={styleCard}>
           <tbody>
             <tr style={{ border: "none" }}>
-              <td
-                style={{
-                  padding: "0px 4px 0px 0px",
-                  background: "none",
-                }}
-              >
-                <a
-                  href="/"
-                  className="font-firma "
+              <td style={{ padding: "0px 4px 0px 0px", background: "none" }}>
+                <div
+                  className="font-firma"
                   style={{
                     padding: "0px 4px 0px 0px",
                     background: "none",
@@ -78,17 +73,17 @@ export default function TestPage() {
                   />
                   <p
                     style={{
-                      marginTop: -20,
+                      marginTop: -15,
                       fontSize: 16,
                       color: "rgb(230, 76, 96)",
-                      height: 18,
+                      height: 16,
                       display: "block",
                     }}
                   >
                     Glass & Aluminum <br />
                     <span>Company S.A.C.</span>
                   </p>
-                </a>
+                </div>
               </td>
 
               <td
@@ -113,7 +108,7 @@ export default function TestPage() {
                 />
               </td>
               <td
-                className="font-firma "
+                className="font-firma"
                 style={{
                   textAlign: "center",
                   background: "none",
@@ -148,7 +143,7 @@ export default function TestPage() {
                 </p>
                 <div>
                   <a
-                    href="https://instagram.com/gyacompany"
+                    href="https://gyacompany.com"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     style={{
@@ -156,7 +151,7 @@ export default function TestPage() {
                       display: "inline-block",
                     }}
                   >
-                    <img src={global} alt="" />
+                    <img src={global} alt="" width={20} height={20} />
                   </a>
 
                   <a
@@ -194,7 +189,7 @@ export default function TestPage() {
                   </a>
 
                   <a
-                    href="https://instagram.com/gyacompany"
+                    href="https://goo.gl/maps/ofXP2wqpy1h3G4E68"
                     target="_blank"
                     rel="noopener noreferrer nofollow"
                     style={{
@@ -202,7 +197,7 @@ export default function TestPage() {
                       display: "inline-block",
                     }}
                   >
-                    <img src={location} alt="" />
+                    <img src={location} alt="" width={20} height={20} />
                   </a>
                 </div>
               </td>
@@ -212,4 +207,6 @@ export default function TestPage() {
       </div>
     </div>
   );
-}
+};
+
+export default TestPage;
