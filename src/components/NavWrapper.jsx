@@ -34,12 +34,14 @@ export default function NavWrapper({ children }) {
                 </Link>
               </li>
 
+              {/* 
               <li className="nav-item">
                 <Link className="nav-link " to="/product">
                   {" "}
                   Productos
                 </Link>
-              </li>
+              </li> 
+              */}
 
               <li className="nav-item">
                 <Link className="nav-link " to="/us">
@@ -65,6 +67,7 @@ export default function NavWrapper({ children }) {
           </div>
         </div>
       </nav>
+      {/*  */}
       <div className="">{children}</div>
     </header>
   );
