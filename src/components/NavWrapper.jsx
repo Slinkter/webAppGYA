@@ -44,25 +44,23 @@ export default function NavWrapper({ children }) {
               */}
 
               <li className="nav-item">
-                <Link className="nav-link " to="/us">
-                  {" "}
-                  Nosotros
-                </Link>
-              </li>
-
-              <li className="nav-item">
                 <Link className="nav-link " to="/client">
                   {" "}
                   Proyectos
                 </Link>
               </li>
-
-              <li className="nav-item">
+              {/*  <li className="nav-item">
+                <Link className="nav-link " to="/us">
+                  {" "}
+                  Nosotros
+                </Link>
+              </li> */}
+              {/*  <li className="nav-item">
                 <Link className="nav-link " to="/budget">
                   {" "}
                   Presupuestos
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

@@ -20,123 +20,123 @@ import mosquetero from "../../img/webService/init16.jpg";
 import "./servicios.css";
 // db
 const listService = [
-    {
-        id: 1,
-        image: ventana,
-        name: "Ventanas",
-        link: "https://bit.ly/3HuT0Eq",
-    },
-    {
-        id: 2,
-        image: Mampara,
-        name: "Mamparas",
-        link: "https://www.facebook.com/media/set/?set=a.414060650462803&type=3/?from=GoogleBT",
-    },
-    {
-        id: 3,
-        image: puertaducha,
-        name: "Puertas de Ducha ",
-        link: "https://www.facebook.com/media/set/?set=a.414060420462826&type=3?from=GoogleBT",
-    },
-    {
-        id: 4,
-        image: techopoli,
-        name: "Techo de Policarbonato",
-        link: "https://www.facebook.com/media/set/?set=a.414060237129511&type=3?from=GoogleBT",
-    },
-    {
-        id: 5,
-        image: parapeto,
-        name: "Parapeto ",
-        link: "https://www.facebook.com/media/set/?set=a.414060023796199&type=3?from=GoogleBT",
-    },
-    {
-        id: 6,
-        image: baranda,
-        name: "Barandas de Acero",
-        link: "https://www.facebook.com/gyacompany?from=GoogleBT",
-    },
-    {
-        id: 7,
-        image: balcon,
-        name: "Balcones",
-        link: "https://www.facebook.com/media/set/?set=a.414059690462899&type=3?from=GoogleBT",
-    },
-    {
-        id: 8,
-        image: muro,
-        name: "Muro de Cortina ",
-        link: "https://www.facebook.com/media/set/?set=a.114380903764114&type=3?from=GoogleBT",
-    },
-    {
-        id: 9,
-        image: lamseg,
-        name: "Lámina de seguridad",
-        link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
-    },
-    {
-        id: 10,
-        image: areanado,
-        name: "Empavonado de cristales",
-        link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
-    },
+  {
+    id: 1,
+    image: ventana,
+    name: "Ventanas",
+    link: "https://bit.ly/3HuT0Eq",
+  },
+  {
+    id: 2,
+    image: Mampara,
+    name: "Mamparas",
+    link: "https://www.facebook.com/media/set/?set=a.414060650462803&type=3/?from=GoogleBT",
+  },
+  {
+    id: 3,
+    image: puertaducha,
+    name: "Puertas de Ducha ",
+    link: "https://www.facebook.com/media/set/?set=a.414060420462826&type=3?from=GoogleBT",
+  },
+  {
+    id: 4,
+    image: techopoli,
+    name: "Techo de Policarbonato",
+    link: "https://www.facebook.com/media/set/?set=a.414060237129511&type=3?from=GoogleBT",
+  },
+  {
+    id: 5,
+    image: parapeto,
+    name: "Parapeto ",
+    link: "https://www.facebook.com/media/set/?set=a.414060023796199&type=3?from=GoogleBT",
+  },
+  {
+    id: 6,
+    image: baranda,
+    name: "Barandas de Acero",
+    link: "https://www.facebook.com/gyacompany?from=GoogleBT",
+  },
+  {
+    id: 7,
+    image: balcon,
+    name: "Balcones",
+    link: "https://www.facebook.com/media/set/?set=a.414059690462899&type=3?from=GoogleBT",
+  },
+  {
+    id: 8,
+    image: muro,
+    name: "Muro de Cortina ",
+    link: "https://www.facebook.com/media/set/?set=a.114380903764114&type=3?from=GoogleBT",
+  },
+  {
+    id: 9,
+    image: lamseg,
+    name: "Lámina de seguridad",
+    link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
+  },
+  {
+    id: 10,
+    image: areanado,
+    name: "Empavonado de cristales",
+    link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
+  },
 
-    {
-        id: 11,
-        image: puertavidrio,
-        name: "Puerta de Vidrio",
-        link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    },
-    {
-        id: 12,
-        image: puertaserie,
-        name: "Puerta en serie ",
-        link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    },
-    {
-        id: 13,
-        image: celocias,
-        name: "Celosías",
-        link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    },
-    {
-        id: 14,
-        image: frenos,
-        name: "Freno hidráulico ",
-        link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    },
+  {
+    id: 11,
+    image: puertavidrio,
+    name: "Puerta de Vidrio",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+  },
+  {
+    id: 12,
+    image: puertaserie,
+    name: "Puerta en serie ",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+  },
+  {
+    id: 13,
+    image: celocias,
+    name: "Celosías",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+  },
+  {
+    id: 14,
+    image: frenos,
+    name: "Freno hidráulico ",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+  },
 
-    {
-        id: 15,
-        image: fachada,
-        name: "Fachada integral",
-        link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    },
-    {
-        id: 16,
-        image: mosquetero,
-        name: "Mosquetero ",
-        link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    },
+  {
+    id: 15,
+    image: fachada,
+    name: "Fachada integral",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+  },
+  {
+    id: 16,
+    image: mosquetero,
+    name: "Mosquetero ",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+  },
 ];
 
 export default function Service() {
-    return (
-        <section className="bg_servicios">
-            <div className="container py-5 animated fadeIn">
-                <div className=" mx-auto space_servicio text-center ">
-                    <h2 className="mt-3 mb-2 pColorRed ">SERVICIOS</h2>
-                    <p className="lead text-secondary mt-2 ">
-                        Nuestros servicios de instalación de cristales y
-                        aluminio que tenemos disponibles
-                    </p>
-                </div>
-                <section className="products animated fadeIn">
-                    {listService.map((servicio) => {
-                        return <ItemService key={servicio.id} {...servicio} />;
-                    })}
-                </section>
-            </div>
+  return (
+    <section className="bg_servicios">
+      <div className="container py-5 animated fadeIn">
+        <div className=" mx-auto space_servicio text-center ">
+          <h2 className="mt-3 mb-2 pColorRed ">SERVICIOS</h2>
+          <p className="lead text-secondary mt-2 ">
+            Tenemos una amplia variedad de servicios de instalación en cristales
+            y aluminio
+          </p>
+        </div>
+        <section className="products animated fadeIn">
+          {listService.map((servicio) => {
+            return <ItemService key={servicio.id} {...servicio} />;
+          })}
         </section>
-    );
+      </div>
+    </section>
+  );
 }

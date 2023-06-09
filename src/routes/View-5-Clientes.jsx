@@ -1,13 +1,12 @@
 import NavWrapper from "../components/NavWrapper";
 import Landcover from "../components/Inicio/landcover";
 import Footer from "../components/FooterWrapper";
-import Proyects from "../components/Clientes/Proyects";
+import Proyects from "../components/Proyectos/Proyects";
 
-
-export default function ClientView(){
+export default function ClientView() {
   return (
-    <NavWrapper>    
-      <Proyects/>
+    <NavWrapper>
+      <Proyects />
       <Footer />
     </NavWrapper>
   );

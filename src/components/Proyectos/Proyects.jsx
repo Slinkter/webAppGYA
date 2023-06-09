@@ -130,13 +130,8 @@ function Proyects() {
     <section className="bg_servicios">
       <div className="container py-5">
         <div className=" mx-auto space_servicio text-center ">
-          <h2 className=" animated fadeIn  mt-3 mb-2">Proyectos</h2>
-
-          <p className="animated fadeIn  lead text-secondary mt-2">
-            <hr className="  mx-3 " />
-            Nuestros servicios de instalación cuenta con productos y accesorios
-            que cumple con los estándares de calidad.
-          </p>
+          <h2 className="mt-3 mb-2 pColorRed ">PROYECTOS</h2>
+          <p className="lead text-secondary mt-2 ">PROYECTOS ENTREGADOS</p>
         </div>
         <section className="products animated fadeIn">
           {projects.reverse().map((servicio) => {

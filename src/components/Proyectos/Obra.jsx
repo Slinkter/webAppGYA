@@ -5,7 +5,7 @@ import "./Obra.css";
 
 function Obra({ image, residencial, name, address, numdpto, year }) {
   return (
-    <article className="obra grow">
+    <article className="obra-card grow">
       <img src={image || defaultImage} alt={residencial} />
       <h4 className="mt-3 ">{residencial || "residencial"}</h4>
       <hr className="m-1 mx-5" />
