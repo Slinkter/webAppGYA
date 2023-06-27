@@ -1,7 +1,7 @@
 .product {
   border-radius: 15px;
   border: 1px solid rgba(22, 25, 20, 0.2);
-  box-shadow: 0px 15px 250px rgba(42, 45, 40, 0.15);
+  box-shadow: 0px 5px 250px rgba(42, 45, 40, 0.15);
   transition: all 0.4s linear 0s;
   overflow: hidden;
 }
@@ -14,19 +14,8 @@
   margin-top: 1rem;
 }
 
-.product button {
-  margin-bottom: 1rem;
-  background: var(--clr-primary-5);
-  border-radius: var(--radius);
-  border-color: transparent;
-  color: var(--clr-white);
-  padding: 0.25rem 0.5rem;
-  text-transform: capitalize;
-  cursor: pointer;
-}
-
 .growServicio:hover {
-  transform: scale(1.04);
+  transform: scale(1.03);
   animation-delay: 0.2s;
   box-shadow: 0px 1px 35px 0px rgba(0, 0, 0, 0.3);
 }
@@ -35,6 +24,6 @@
   .growServicio:hover {
     transform: scale(1);
     animation-delay: 0;
-    box-shadow: rgba(47, 135, 173, 0.35) 0px 5px 15px;
+    box-shadow: rgba(47, 135, 173, 0.35) 0px 3px 9px;
   }
 }

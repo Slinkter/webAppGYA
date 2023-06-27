@@ -25,12 +25,14 @@ const listService = [
     image: ventana,
     name: "Ventanas",
     link: "https://bit.ly/3HuT0Eq",
+    plink: "/service/ventana",
   },
   {
     id: 2,
     image: Mampara,
     name: "Mamparas",
     link: "https://www.facebook.com/media/set/?set=a.414060650462803&type=3/?from=GoogleBT",
+    plink: "/service/mampara",
   },
   {
     id: 3,
