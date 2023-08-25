@@ -8,10 +8,8 @@ function ItemService(props) {
   return (
     <article className="product growServicio">
       <img src={image || defaultImage} alt={name} />
-      <hr className="mt-4 mx-5" />
-      <h4 className="pSize ">{name || "servicio"}</h4>
-      <hr className="mb-2 mx-5" />
-      <a href={plink} className="mx-4 my-4 btn btn-primary btn-lg ">
+      <h4 className="pSize m-4">{name || "servicio"}</h4>
+      <a hidden href={plink} className=" mx-4 my-4 btn btn-primary btn-lg ">
         Catálogo
       </a>
     </article>
