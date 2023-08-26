@@ -130,7 +130,7 @@ export default function Service() {
           <h2 className="mt-3 mb-2 pColorRed ">SERVICIOS</h2>
           <p className="lead text-secondary mt-2 ">
             Tenemos una amplia variedad de servicios de instalación en cristales
-            y aluminio
+            y aluminios
           </p>
         </div>
         <section className="products animated fadeIn">
