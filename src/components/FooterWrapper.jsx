@@ -13,11 +13,11 @@ export default function Footer() {
                   <div>
                     <div>
                       <i class="fa-brands fa-whatsapp mx-2 mb-2"></i>
-                      971-870-665
+                      996-537-435
                     </div>
                     <div>
                       <i class="fa-brands fa-whatsapp mx-2"></i>
-                      974-278-303
+                      971-870-665
                     </div>
                   </div>
                 </p>

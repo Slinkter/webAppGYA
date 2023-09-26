@@ -11,9 +11,12 @@
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 4fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 3rem;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .pColorRed {
@@ -28,11 +31,21 @@
   text-shadow: 0 2px rgba(0, 1, 0, 0.4);
 }
 .pSize {
-  font-size: 1.6rem;
+  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
 }
 
 @media screen and (max-width: 992px) {
   .products {
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+  }
+}
+
+@media screen and (max-width: 1240px) {
+  .products {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 3fr));
   }
 }
