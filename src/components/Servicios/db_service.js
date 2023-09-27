@@ -69,13 +69,13 @@ const listService = [
   {
     id: 9,
     image: lamseg,
-    name: "Lámina de seguridad",
+    name: "Lámina de Seguridad",
     link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
   },
   {
     id: 10,
     image: areanado,
-    name: "Empavonado de cristales",
+    name: "Empavonado de Cristales",
     link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
   },
 
@@ -88,7 +88,7 @@ const listService = [
   {
     id: 12,
     image: puertaserie,
-    name: "Puerta en serie ",
+    name: "Puerta en Serie ",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
   },
   {
@@ -107,15 +107,15 @@ const listService = [
   {
     id: 15,
     image: fachada,
-    name: "Fachada integral",
+    name: "Fachada Integral",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
   },
-  {
+  /* {
     id: 16,
     image: mosquetero,
     name: "Mosquetero ",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-  },
+  }, */
 ];
 
-export {listService}
+export { listService };

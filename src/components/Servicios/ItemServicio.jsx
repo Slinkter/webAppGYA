@@ -9,7 +9,7 @@ function ItemService(props) {
     <article className="product growServicio">
       <a href={plink} className=" ">
         <img src={image || defaultImage} alt={name} />
-        <h4 className="pSize m-4">{name || "servicio"}</h4>
+        <h4 className="pSize m-4 product-title">{name || "servicio"}</h4>
       </a>
     </article>
   );

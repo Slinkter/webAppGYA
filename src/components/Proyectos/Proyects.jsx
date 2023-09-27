@@ -128,7 +128,7 @@ function Proyects() {
   ];
   return (
     <section className="bg_servicios">
-      <div className="container py-5">
+      <div className="container py-5  animated fadeIn">
         <div className=" mx-auto space_servicio text-center ">
           <h2 className="mt-3 mb-2 pColorRed ">PROYECTOS</h2>
           <p className="lead text-secondary mt-2 ">PROYECTOS ENTREGADOS</p>

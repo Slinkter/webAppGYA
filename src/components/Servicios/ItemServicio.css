@@ -15,6 +15,9 @@
 .product h4 {
   margin-top: 1rem;
 }
+.product-title {
+  color: black;
+}
 
 .growServicio:hover {
   transform: scale(1.03);
