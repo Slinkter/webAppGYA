@@ -1,71 +1,120 @@
 .img_logo {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
+  filter: opacity(1);
 }
 
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: white;
+}
+
+img {
+  filter: opacity(0);
+}
+
+.bg_mainpage {
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.383), rgba(4, 4, 4, 0.384)),
+    url("../../img/webService/init15.jpg");
+  object-fit: cover;
+  object-position: center;
 }
 
 .height_cover {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
 }
 
 .titleh1 {
-    color: #fa2727;
-    font-weight: 600;
-    font-size: 4.5rem;
-    text-shadow: 0 2px rgba(0, 1, 0, 0.3);
+  color: white;
+  font-weight: 600;
+  font-size: 4.5rem;
+  text-shadow: 0 2px rgba(0, 1, 0, 0.851);
 }
 
 .titleh2 {
-    color: #0089ff;
-    font-weight: 500;
-    font-size: 2.9rem;
-    text-shadow: 0 2px rgba(0, 1, 0, 0.3);
+  color: white;
+  font-weight: 500;
+  font-size: 2.9rem;
+  text-shadow: 0 2px rgba(0, 1, 0, 0.851);
 }
 
 .titleh3 {
-    color: #6c757d;
-    font-weight: 400;
-    font-size: 1.5rem;
-    margin-top: 15px;
+  color: white;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-top: 15px;
+  line-height: 1.5;
+  text-shadow: 0 2px rgba(0, 1, 0, 0.851);
 }
 
+@media (max-width: 420px) {
+  .img_logo {
+    width: 65%;
+    height: 65%;
+    margin-bottom: 35px;
+  }
 
+  .titleh1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    font-family: inherit;
+  }
+
+  .titleh2 {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-top: -10px;
+    padding-top: 0;
+    font-family: inherit;
+  }
+
+  .titleh3 {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
 
 @media (max-width: 420px) {
-    .img_logo {
-        width: 70%;
-        height: 70%;
-    }
+  .img_logo {
+    width: 65%;
+    height: 65%;
+    margin-bottom: 35px;
+  }
 
-    .titleh1 {
-        font-size: 2.5rem;
-        line-height: 1.2;
-        margin-left: 5px;
-        margin-right: 5px;
-        margin-top: 0;
-    }
+  .titleh1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 0;
+    font-family: inherit;
+  }
 
-    .titleh2 {
-        font-size: 1.9rem;
-        line-height: 1.5;
-        font-weight: 700;
-        margin-top: -10px;
-        padding-top: 0;
-    }
+  .titleh2 {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    font-weight: 700;
+    margin-top: -10px;
+    padding-top: 0;
+    font-family: inherit;
+    display: none;
+  }
 
-    .titleh3 {
-        font-size: 1.3rem;
-        line-height: 1.2;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
+  .titleh3 {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
 }

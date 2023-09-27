@@ -4,8 +4,10 @@ export default function Ubicacion() {
     <section className="">
       <div class=" bg_ubicacion text-center ">
         <div class="container">
-          <h2 class="titleh2">UBICANOS</h2>
-          <p class="lead text-secondary"> Av. Los Frenos 1250 - La Molina</p>
+          <h2 class="ubicacion-title-h2">UBICANOS</h2>
+          <p class="lead text-secondary">
+            AV. Los Fresnos MZ H LT 16 - Urb. El Valle - La Molina - Lima{" "}
+          </p>
         </div>
       </div>
 
@@ -20,9 +22,7 @@ export default function Ubicacion() {
           ></iframe>
         </div>
       </div>
-      <div className="container m-5 text-center">
-        
-      </div>
+      <div className="container m-5 text-center"></div>
     </section>
   );
 }
