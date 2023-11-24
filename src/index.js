@@ -15,6 +15,7 @@ import ErrorView from "./routes/View-7-Error";
 import TestPage from "./routes/View-8-Test";
 import Ventana from "./components/Servicios/Products/01.Ventana/Ventana";
 import Mampara from "./components/Servicios/Products/02.Mampara/Mampara";
+import ScrollToTop from "./utils/ScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,5 +33,6 @@ root.render(
       <Route path="/service/mampara" element={<Mampara />} />
       <Route path="*" element={<ErrorView />} />
     </Routes>
+    <ScrollToTop />
   </BrowserRouter>
 );
