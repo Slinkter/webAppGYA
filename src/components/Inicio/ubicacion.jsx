@@ -1,7 +1,7 @@
 import "./ubicacion.css";
 export default function Ubicacion() {
   return (
-    <section className="">
+    <section className="text-center">
       <div class=" bg_ubicacion text-center ">
         <div class="container">
           <h2 class="ubicacion-title-h2">UBICANOS</h2>
@@ -10,7 +10,6 @@ export default function Ubicacion() {
           </p>
         </div>
       </div>
-
       <div className="container-fluid text-center ">
         <div className="google-maps  shadow-lg  rounded mb-2">
           <iframe
@@ -24,14 +23,11 @@ export default function Ubicacion() {
           />
         </div>
       </div>
-      <div class="m-1 text-center ">
-        <button
-          className="col-12 btn btn-dark col-md-5 mt-3 mb-3"
-          type="button"
-        >
-          <a href="https://maps.app.goo.gl/qDk3gpzd5MrYc6zk6">Visitar</a>
-        </button>
-      </div>
+      <br />
+      <button className="col-12 btn btn-dark col-md-5 mt-2 mb-5 " type="button">
+        <a href="https://maps.app.goo.gl/qDk3gpzd5MrYc6zk6">Visitar</a>
+      </button>
+      <br />
     </section>
   );
 }
