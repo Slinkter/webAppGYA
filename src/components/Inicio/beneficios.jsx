@@ -16,8 +16,8 @@ export default function Beneficio() {
               <div class="container">
                 <h2 class="beneficio-title-h2">Clientes</h2>
                 <p class="lead text-secondary">
-                  Ofrecemos vidrios y aluminios de alta calidad para satisfacer
-                  las necesidades de nuestros clientes
+                  Nuestros vidrios y aluminios pueden ayudar a crear proyectos
+                  más seguros, eficientes y atractivos.
                 </p>
               </div>
             </div>
@@ -58,8 +58,8 @@ export default function Beneficio() {
         <div class="container">
           <h2 class="beneficio-title-h2">Empresa</h2>
           <p class="lead text-secondary">
-            Contamos con 20 años de experiencia instalación de cristales y
-            aluminio
+            Contamos con más de 20 años de experiencia en la instalación de
+            vidrios y aluminios.
           </p>
         </div>
       </div>
@@ -72,11 +72,12 @@ export default function Beneficio() {
                 Presupuestos
                 <span class="text-muted"> Online</span>
               </h2>
+
               <p className="mb-4  mr-5 p_empresa">
-                Realizamos visitas a domicilio{" "}
-                <span className="underparrafo"> sin costo </span>
-                🏠 o puedes escribirnos vía whatsapp ✍️ sobre un servicio que
-                deseas y te enviamos un presupuesto📋 .
+                Solicita un presupuesto 📋{" "}
+                <span className="underparrafo"> sin costo </span> y sin
+                compromiso. Solo envíanos un mensaje por WhatsApp ✍️ con la
+                información de tu proyecto. Realizamos visitas a domicilio 🏠 .
               </p>
               <ul className="list-unstyled mb-5">
                 <li className="mb-2">
@@ -93,23 +94,27 @@ export default function Beneficio() {
                 </li>
               </ul>
               <div className="text-center">
-                <button className="my-2 mx-3 col-lg-5 col-md-11   btn btn-success ">
+                <button
+                  className="col-12 w-100 btn btn-success m-1 col-md-5 "
+                  type="button"
+                >
                   <a
                     href="https://wa.me/51996537435?text=Quisiera una cotización para .... "
                     className=""
                   >
                     <i class="fa-brands fa-whatsapp mx-2 "></i>
-                    Solicitar Presupuesto
+                    Solicita un presupuesto ahora
                   </a>
                 </button>
               </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 m-0 p-0  ">
+            <div className="col-lg-6 col-md-12 col-sm-12 m-0 p-0 hidden-movil ">
               <img className="img_presupuesto" src={budget} alt="" />
             </div>
           </div>
         </div>
       </article>
+      <hr className="show-hr" />
       {/* Aluminio y Cristal */}
       <article>
         <div className="container-fluid d-flex flex-column">
@@ -137,14 +142,29 @@ export default function Beneficio() {
                   Ofertas y promociones en cristales templados.
                 </li>
               </ul>
+              <div className="text-center">
+                <button
+                  className="col-12 w-100 btn btn-success m-1 col-md-5 "
+                  type="button"
+                >
+                  <a
+                    href="https://wa.me/51996537435?text=Quisiera una cotización para .... "
+                    className=""
+                  >
+                    <i class="fa-brands fa-whatsapp mx-2 "></i>
+                    Solicita un presupuesto ahora
+                  </a>
+                </button>
+              </div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12  order-md-1 m-0 p-0">
+            <div className="col-lg-6 col-md-12 col-sm-12  order-md-1 m-0 p-0 hidden-movil">
               <img className="img_presupuesto" src={aluminum} alt="" />
             </div>
           </div>
         </div>
       </article>
       {/* Garantia  y Producto */}
+      <hr className="show-hr" />
       <article>
         <div className="container-fluid d-flex flex-column">
           <div className="row my-auto">
@@ -174,9 +194,23 @@ export default function Beneficio() {
                   Proveedores nacionales
                 </li>
               </ul>
+              <div className="text-center">
+                <button
+                  className="col-12 w-100 btn btn-success m-1 col-md-5 "
+                  type="button"
+                >
+                  <a
+                    href="https://wa.me/51996537435?text=Quisiera una cotización para .... "
+                    className=""
+                  >
+                    <i class="fa-brands fa-whatsapp mx-2 "></i>
+                    Solicita un presupuesto ahora
+                  </a>
+                </button>
+              </div>
               <div className="text-center"></div>
             </div>
-            <div className="col-lg-6 col-md-12 col-sm-12 m-0 p-0 ">
+            <div className="col-lg-6 col-md-12 col-sm-12 m-0 p-0 hidden-movil">
               <img className="img_presupuesto" src={calidad} alt="" />
             </div>
           </div>

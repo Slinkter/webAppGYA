@@ -19,7 +19,7 @@ export default function Landcover() {
             <button className="mt-3  btn btn-success ">
               <a href="https://wa.me/51996537435?text=Quisiera una cotización para .... ">
                 <i class="fa-brands fa-whatsapp mx-2 "></i>
-                Solicitar Presupuesto
+                Solicita un presupuesto ahora
               </a>
             </button>
           </div>
