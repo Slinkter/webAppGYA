@@ -33,7 +33,7 @@ export default function Footer() {
               <div class="col-md-4 ">
                 <h2 class="titleh2footer">Ubicación</h2>
                 <p className="textwhite">
-                  Av. Los Frenos 1250
+                  Av. Los Fresnos 1250
                   <p> La Molina</p>
                 </p>
               </div>
