@@ -13,8 +13,10 @@ import ClientView from "./routes/View-5-Clientes";
 import BudgetView from "./routes/View-6-Presupuesto";
 import ErrorView from "./routes/View-7-Error";
 import TestPage from "./routes/View-8-Test";
+// Servicio -->
 import Ventana from "./components/Servicios/Products/01.Ventana/Ventana";
 import Mampara from "./components/Servicios/Products/02.Mampara/Mampara";
+// Aux -->
 import ScrollToTop from "./utils/ScrollToTop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -31,6 +33,7 @@ root.render(
 
       <Route path="/service/ventana" element={<Ventana />} />
       <Route path="/service/mampara" element={<Mampara />} />
+
       <Route path="*" element={<ErrorView />} />
     </Routes>
     <ScrollToTop />

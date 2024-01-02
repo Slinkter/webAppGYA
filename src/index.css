@@ -1,23 +1,10 @@
-:root {
-  --clr-white: #fff;
-  --radius: 0.25rem;
-  --clr-primary-5: hsl(205, 78%, 60%);
-}
-
 * {
-  padding: 0;
   margin: 0;
   box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
   font-family: "Lora", serif;
-  padding: 0;
-  margin: 0;
-}
-
-html {
-  scroll-behavior: smooth;
-  padding: 0;
-  margin: 0;
 }

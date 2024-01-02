@@ -11,16 +11,18 @@ export default function Beneficio() {
       <article>
         <div className="container-fluid">
           <div className="row">
+            {/* Clientes */}
             <div class=" bg_ubicacion text-center ">
               <div class="container">
                 <h2 class="beneficio-title-h2">Clientes</h2>
                 <p class="lead text-secondary">
-                  Ofrecemos soluciones de alta calidad para una amplia gama de
-                  clientes
+                  Ofrecemos vidrios y aluminios de alta calidad para satisfacer
+                  las necesidades de nuestros clientes
                 </p>
               </div>
             </div>
-            <div className="col-sm bloque-sector01 d-flex  text-white ">
+            {/* Constructoras */}
+            <div className="col-sm bloque-sector01 d-flex flex-column  text-white ">
               <div className="container m-auto text-center  ">
                 <h2 className=" titleClient ">Constructoras</h2>
                 <p className="parrafoClient">
@@ -29,7 +31,8 @@ export default function Beneficio() {
                 </p>
               </div>
             </div>
-            <div className="col-sm bloque-sector02 d-flex flex-column text-white growsector ">
+            {/* Negocios */}
+            <div className="col-sm bloque-sector02 d-flex flex-column text-white  ">
               <div className="container m-auto text-center ">
                 <h2 className="titleClient ">Negocios</h2>
                 <p className=" parrafoClient">
@@ -37,7 +40,8 @@ export default function Beneficio() {
                 </p>
               </div>
             </div>
-            <div className="col-sm bloque-sector03 d-flex flex-column text-white growsector">
+            {/* Hogares */}
+            <div className="col-sm bloque-sector03 d-flex flex-column text-white ">
               <div className="container m-auto text-center">
                 <h2 className="titleClient">Hogares</h2>
                 <p className="parrafoClient">

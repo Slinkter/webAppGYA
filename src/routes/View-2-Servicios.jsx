@@ -4,7 +4,7 @@ import Service from "../components/Servicios/servicios";
 
 export default function ServiceView() {
   return (
-    <NavWrapper>      
+    <NavWrapper>
       <Service />
       <Footer />
     </NavWrapper>
