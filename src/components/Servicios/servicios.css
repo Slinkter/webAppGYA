@@ -1,5 +1,4 @@
 .bg_servicios {
-  /*    background-color: hsla(200, 84%, 96%, 0.431); */
   margin: 0;
   padding: 0;
 }
@@ -12,9 +11,9 @@
 
 .products {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(3, minmax(450px, 3fr));
   place-content: center;
-  gap: 3rem;
+  gap: 1rem;
   text-align: center;
 }
 

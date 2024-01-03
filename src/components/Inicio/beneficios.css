@@ -35,7 +35,7 @@
       rgba(98, 89, 89, 0.666),
       rgba(0, 0, 0, 0.4)
     ),
-    url("../../img/sectorcontruc.jpg");
+    url("../../img/sectorcontruc.jpg") center center;
 
   background-size: cover;
   min-height: 90vh;

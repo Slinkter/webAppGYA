@@ -1,10 +1,10 @@
 import ventana from "../../img/webService/init01.jpg";
-import Mampara from "../../img/webService/init02.jpg";
+import Mampara from "../../img/webService/init02a.jpg";
 import puertaducha from "../../img/webService/init03.jpg";
 import techopoli from "../../img/webService/init04.jpg";
-import parapeto from "../../img/webService/init05.jpg";
+import parapeto from "../../img/webService/init05a.jpg";
 import baranda from "../../img/webService/init06.jpg";
-import balcon from "../../img/webService/init07.jpg";
+import balcon from "../../img/webService/init07a.jpg";
 import muro from "../../img/webService/init08.jpg";
 import lamseg from "../../img/webService/init09.jpg";
 import areanado from "../../img/webService/init10.jpg";
@@ -45,7 +45,7 @@ const listService = [
   {
     id: 5,
     image: parapeto,
-    name: "Parapeto ",
+    name: "Parapeto de vidrio",
     link: "https://www.facebook.com/media/set/?set=a.414060023796199&type=3?from=GoogleBT",
   },
   {
@@ -110,12 +110,6 @@ const listService = [
     name: "Fachada Integral",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
   },
-  /* {
-    id: 16,
-    image: mosquetero,
-    name: "Mosquetero ",
-    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-  }, */
 ];
 
 export { listService };
