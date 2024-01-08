@@ -7,7 +7,7 @@ function Obra({ image, residencial, name, address, numdpto, year }) {
     <article
       className="bg_product  col-sm  d-flex flex-column "
       style={{
-        backgroundImage: ` url(${image})`,
+        backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.1083), rgba(4, 4, 4, 0.1084)), url(${image})`,
       }}
     >
       <div className="container m-auto text-center text-white">

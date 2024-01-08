@@ -1,20 +1,21 @@
 .bg_servicios {
-  /*    background-color: hsla(200, 84%, 96%, 0.431); */
   margin: 0;
-  padding: 0;
+  padding-top: 3rem;
+  margin-bottom: 3rem;
 }
 
 .space_servicio {
   text-align: center;
   padding-top: 2rem;
-  padding-bottom: 2rem;
 }
 
 .products {
   display: grid;
-  grid-template-columns: repeat(3, minmax(350px, 1fr));
+  grid-template-columns: repeat(3, minmax(350px, 550px));
+  align-items: center;
+  justify-content: center;
   place-content: center;
-  gap: 3rem;
+  gap: 1.5rem;
   text-align: center;
 }
 
@@ -40,6 +41,12 @@
 @media screen and (max-width: 992px) {
   .products {
     grid-template-columns: repeat(auto-fit, minmax(350px, 2fr));
+  }
+  .bg_servicios {
+    margin: 0rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    padding: 1rem;
   }
 }
 
