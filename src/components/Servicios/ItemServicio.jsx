@@ -5,12 +5,18 @@ import "./ItemServicio.css";
 function ItemService(props) {
   const { image, name, link, plink } = props;
 
+  const handleErrorImage = (e) => {
+    e.target.onerror = null;
+    e.target.src = defaultImage;
+  };
+
   return (
     <article
-      className="product col-sm  d-flex flex-column  text-white shadow  "
+      className="bg_product col-sm  d-flex flex-column     "
       style={{
         backgroundImage: ` url(${image})`,
       }}
+      onError={handleErrorImage}
     >
       <div className="container m-auto text-center   ">
         <h2 className=" titleClient ">{name}</h2>
