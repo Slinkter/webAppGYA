@@ -7,7 +7,7 @@ function ItemService(props) {
 
   return (
     <article
-      className="product col-sm  d-flex flex-column  text-white"
+      className="product col-sm  d-flex flex-column  text-white shadow  "
       style={{
         backgroundImage: ` url(${image})`,
       }}
