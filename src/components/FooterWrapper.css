@@ -2,12 +2,6 @@
   font-weight: 500;
   font-size: 2.5rem;
   text-shadow: 0 2px rgba(0, 0, 0, 0.1);
-  color: white;
-}
-
-.textwhite {
-  color: white;
-  font-size: 1.05rem;
 }
 
 .social-media {
@@ -33,25 +27,9 @@ ul {
   text-align: center;
 }
 
-.social-media li a i {
-  color: white;
-  margin: 20px;
-}
-
-@media (max-width: 1045px) {
-  .social-media {
-    justify-content: space-evenly;
-  }
-
-  .textwhite {
-    color: white;
-    font-size: 1.3rem;
-  }
-}
-
 .footer-section {
-  background: #b9121b;
-  padding: 3rem 0;
+  background-color: #e9ecef;
+  padding: 2rem 0 1rem;
 }
 
 .footer-column h4 {
@@ -70,4 +48,15 @@ ul {
 .flexcontainer {
   display: flex;
   text-align: center;
+}
+
+@media (max-width: 1045px) {
+  .social-media {
+    justify-content: space-evenly;
+  }
+
+  .textwhite {
+    color: white;
+    font-size: 1.3rem;
+  }
 }

@@ -25,7 +25,7 @@ export default function Ubicacion() {
       </div>
       <br />
       <button className="col-12 btn btn-dark col-md-5 mt-2 mb-5 " type="button">
-        <a href="https://maps.app.goo.gl/qDk3gpzd5MrYc6zk6">Visitar</a>
+        <a href="https://maps.app.goo.gl/qDk3gpzd5MrYc6zk6">Visitar Tienda</a>
       </button>
       <br />
     </section>

@@ -16,8 +16,12 @@ function ItemService({ image, name, link, plink }) {
       }}
       onError={handleErrorImage}
     >
-      <div className="container m-auto text-center   ">
+      <div className="container text-center service--textPosition  ">
         <h2 className=" titleClient ">{name}</h2>
+        <hr className="mb-4 service__hrStyle " />
+        <button type="button" className="btn btn-outline-light">
+          Catalogo
+        </button>
       </div>
     </article>
   );

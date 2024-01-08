@@ -2,37 +2,38 @@ import "./FooterWrapper.css";
 
 export default function Footer() {
   return (
-    <section>
-      <footer>
-        <div class="footer-section">
-          <div class="container">
-            <div class="row flexcontainer">
-              <div class="col-md-4 ">
-                <h2 class="titleh2footer">Contactos</h2>
-                <p className="textwhite">
+    <section className="text-center">
+      <footer className="mb-3">
+        <div className="footer-section">
+          <div className="container">
+            <div className="row flexcontainer">
+              <div className="col-md-4 ">
+                <h2 className="titleh2footer">CONTACTO</h2>
+                <p classNameName="">
                   <div>
-                    <div>
-                      <i class="fa-brands fa-whatsapp mx-2 mb-2"></i>
+                    <div className="">
+                      <i className="fa-brands fa-whatsapp mx-2 mb-2 "></i>
                       996-537-435
                     </div>
-                    <div>
-                      <i class="fa-brands fa-whatsapp mx-2"></i>
+                    <div className="">
+                      <i className="fa-brands fa-whatsapp mx-2"></i>
                       971-870-665
                     </div>
                   </div>
                 </p>
               </div>
-              <div class="col-md-4 ">
-                <h2 class="titleh2footer">Horarios</h2>
-                <p className="textwhite">
-                  <i class="fa fa-calendar mx-2 mb-2"></i>
+              <div className="col-md-4 ">
+                <h2 className="titleh2footer">HORARIOS</h2>
+                <div classNameName="textwhite">
+                  <i className="fa fa-calendar mx-2 mb-2 "></i>
                   Lunes a Sábado
-                  <p>9:00 am - 5:00 pm</p>
-                </p>
+                  <br />
+                  9:00 am - 5:00 pm
+                </div>
               </div>
-              <div class="col-md-4 ">
-                <h2 class="titleh2footer">Ubicación</h2>
-                <p className="textwhite">
+              <div className="col-md-4 ">
+                <h2 className="titleh2footer">DIRECCIÓN</h2>
+                <p classNameName="textwhite">
                   Av. Los Fresnos MZ. H LT. 16
                   <p> La Molina </p>
                 </p>
@@ -42,7 +43,7 @@ export default function Footer() {
         </div>
       </footer>
 
-      <div className=" mt-4 text-center">
+      <div>
         <p>Copyright ©2024</p>
       </div>
     </section>
