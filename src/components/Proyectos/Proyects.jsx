@@ -1,5 +1,4 @@
 import React from "react";
-
 import obra01 from "../../img/imgobra/obra01.jpg";
 import obra02 from "../../img/imgobra/obra02.jpg";
 import obra03 from "../../img/imgobra/obra03.jpg";
@@ -128,12 +127,14 @@ function Proyects() {
   ];
   return (
     <section className="bg_servicios">
-      <div className="container py-5  animated fadeIn">
-        <div className=" mx-auto space_servicio text-center ">
+      <div className="container-fluid py-5  animated fadeIn">
+        <div className=" mx-auto space_servicio  ">
           <h2 className="mt-3 mb-2 pColorRed ">PROYECTOS</h2>
-          <p className="lead text-secondary mt-2 ">PROYECTOS ENTREGADOS</p>
+          <p className="lead text-secondary mt-2 ">
+            Contamos con mas de 10 años entregando obras
+          </p>
         </div>
-        <section className="products animated fadeIn">
+        <section className=" products animated fadeIn ">
           {projects.reverse().map((servicio) => {
             return <Obra key={servicio.id} {...servicio} />;
           })}

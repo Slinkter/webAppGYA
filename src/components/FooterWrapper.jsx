@@ -33,8 +33,8 @@ export default function Footer() {
               <div class="col-md-4 ">
                 <h2 class="titleh2footer">Ubicación</h2>
                 <p className="textwhite">
-                  Av. Los Fresnos 1250
-                  <p> La Molina</p>
+                  Av. Los Fresnos MZ. H LT. 16
+                  <p> La Molina </p>
                 </p>
               </div>
             </div>
@@ -43,8 +43,7 @@ export default function Footer() {
       </footer>
 
       <div className=" mt-4 text-center">
-        <p>Lima - Peru</p>
-        <p>Copyright ©2023</p>
+        <p>Copyright ©2024</p>
       </div>
     </section>
   );
