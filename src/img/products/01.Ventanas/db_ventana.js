@@ -3,7 +3,6 @@ import vn_02 from "../../products/01.Ventanas/nova/vn02.jpg";
 import vn_03 from "../../products/01.Ventanas/nova/vn03.jpg";
 import vn_04 from "../../products/01.Ventanas/nova/vn04.jpg";
 import vn_05 from "../../products/01.Ventanas/nova/vn05.jpeg";
-
 import vn_06 from "../../products/01.Ventanas/nova/vn06.jpeg";
 import vn_07 from "../../products/01.Ventanas/nova/vn07.jpeg";
 import vn_08 from "../../products/01.Ventanas/nova/vn08.jpeg";
@@ -20,14 +19,12 @@ import vs_02 from "../../products/01.Ventanas/serie/IMG_0293.jpeg";
 import vs_03 from "../../products/01.Ventanas/serie/IMG_0294.jpeg";
 import vs_04 from "../../products/01.Ventanas/serie/IMG_0295.jpeg";
 import vs_05 from "../../products/01.Ventanas/serie/IMG_0296.jpeg";
-
 import vs_06 from "../../products/01.Ventanas/serie/IMG_0297.jpeg";
 import vs_07 from "../../products/01.Ventanas/serie/IMG_0298.jpeg";
 import vs_08 from "../../products/01.Ventanas/serie/IMG_0307.jpeg";
 import vs_09 from "../../products/01.Ventanas/serie/IMG_0299.jpeg";
 import vs_10 from "../../products/01.Ventanas/serie/IMG_0300.jpeg";
 import vs_11 from "../../products/01.Ventanas/serie/IMG_0301.jpeg";
-
 import vs_12 from "../../products/01.Ventanas/serie/IMG_0302.jpeg";
 import vs_13 from "../../products/01.Ventanas/serie/IMG_0303.jpeg";
 import vs_14 from "../../products/01.Ventanas/serie/IMG_0304.jpeg";
