@@ -2,43 +2,62 @@ import React from "react";
 import NavWrapper from "../../../NavWrapper";
 import Footer from "../../../FooterWrapper";
 /*  */
-import { listVentana } from "../../../../img/products/01.Ventanas/db_ventana";
+
 /*  */
 import "./ventana.css";
+import { listVentana } from "../../../../img/products/01.Ventanas/db_ventana";
 
 const Ventana = () => {
   console.log(listVentana.nova);
-
+  console.log(listVentana.serie);
   return (
     <NavWrapper>
       {/*  */}
-      <section className="bg_servicios ">
-        <div className="container-fluid  animated fadeIn ">
-          <div className=" mx-auto space_servicio  ">
-            <h2 className=" pColorRed ">VENTANAS </h2>
-          </div>
-
-          <section className="products animated fadeIn"></section>
-
-          <div className=" container">
-            <h3> Sistema Nova</h3>
-            <div className="row">
-              <div className="col-sm-6 col-md-4 text-center">
-                <img className="img_ventana" alt="Park" />
-                <p className="">Sistema corredizo</p>
-              </div>
+      <section className=" ">
+        <div className=" animated fadeIn m-0">
+          <section className="text-center m-0">
+            <div className="container__bgService mb-3">
+              <h2 className="ventana__h2"> SISTEMA NOVA </h2>
             </div>
-            <br />
-            <h3> Sistema Serie 25</h3>
-            <div className="row">
-              <div className="col-sm-6 col-md-4 ">
-                <img className="img_ventana" alt="Park" />
+          </section>
+
+          <div className="products animated fadeIn">
+            {listVentana.nova.map((item) => (
+              <div className="  ">
+                <img
+                  className="container__imgProduct"
+                  src={item.image}
+                  alt=""
+                />
               </div>
-            </div>
+            ))}
           </div>
         </div>
       </section>
       {/*  */}
+      <section className=" ">
+        <div className=" animated fadeIn m-0">
+          <section className="text-center m-0">
+            <div className="container__bgService mb-3">
+              <h2 className="ventana__h2"> SISTEMA SERIE 25 </h2>
+            </div>
+          </section>
+
+          <div className="products animated fadeIn">
+            {listVentana.serie.map((item) => (
+              <div className="  ">
+                <img
+                  className="container__imgProduct"
+                  src={item.image}
+                  alt=""
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+      <br />
+
       <Footer />
     </NavWrapper>
   );

@@ -1,11 +1,18 @@
 import React from "react";
 import defaultImage from "../../img/calidad.jpg";
 import "./ItemServicio.css";
+import { useNavigate } from "react-router-dom";
 
 function ItemService({ image, name, link, plink }) {
   const handleErrorImage = (e) => {
     e.target.onerror = null;
     e.target.src = defaultImage;
+  };
+
+  const navigate = useNavigate();
+
+  const handleClickProduct = (nameproduct) => {
+    navigate(`${nameproduct}`);
   };
 
   return (
@@ -19,7 +26,13 @@ function ItemService({ image, name, link, plink }) {
       <div className="container text-center service--textPosition  ">
         <h2 className=" titleClient ">{name}</h2>
         <hr className="mb-4 service__hrStyle " />
-        <button type="button" className="btn btn-outline-light">
+        <button
+          type="button"
+          className="btn btn-outline-light"
+          onClick={() => {
+            handleClickProduct(plink);
+          }}
+        >
           Catalogo
         </button>
       </div>
