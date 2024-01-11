@@ -10,7 +10,7 @@ a {
 
 .bg_mainpage {
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.383), rgba(4, 4, 4, 0.384)),
-    url("../../img/webService/init15.jpg");
+    url("../../img/mainland.jpg");
   object-fit: cover;
   object-position: center;
 }

@@ -35,6 +35,7 @@ const listService = [
     image: puertaducha,
     name: "Puertas de Ducha ",
     link: "https://www.facebook.com/media/set/?set=a.414060420462826&type=3?from=GoogleBT",
+    plink: "/service/ducha",
   },
   {
     id: 4,

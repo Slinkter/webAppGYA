@@ -1,6 +1,7 @@
 import React from "react";
 import NavWrapper from "../../../NavWrapper";
 import Footer from "../../../FooterWrapper";
+
 import "./Mampara.css";
 import { listMampara } from "../../../../img/products/02.Mampara/db_mampara";
 import ItemProduct from "../ItemProduct";
@@ -13,7 +14,7 @@ const Mampara = () => {
           <section className="text-center m-0">
             <div className="container__bg mb-3">
               <h2 className="mampara__h2"> MAMPARA </h2>
-              <p class="lead text-secondary">Sistema Nova</p>
+              <p className="lead text-secondary">Sistema Nova</p>
             </div>
           </section>
           <section className="container-fluid ">

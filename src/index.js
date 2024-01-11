@@ -16,6 +16,7 @@ import TestPage from "./routes/View-8-Test";
 // Servicio -->
 import Ventana from "./components/Servicios/Products/01.Ventana/Ventana";
 import Mampara from "./components/Servicios/Products/02.Mampara/Mampara";
+import Ducha from "./components/Servicios/Products/03.Ducha/Ducha";
 // Aux -->
 import ScrollToTop from "./utils/ScrollToTop";
 
@@ -33,6 +34,7 @@ root.render(
 
       <Route path="/service/ventana" element={<Ventana />} />
       <Route path="/service/mampara" element={<Mampara />} />
+      <Route path="/service/ducha" element={<Ducha />} />
 
       <Route path="*" element={<ErrorView />} />
     </Routes>
