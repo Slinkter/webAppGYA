@@ -18,19 +18,6 @@ import ms_01 from "./IMG_0753.jpeg";
 import ms_02 from "./IMG_0758.jpeg";
 import ms_03 from "./IMG_0763.jpeg";
 
-/* import mn_13 from "./IMG_20221222_204236.jpeg";
-import mn_14 from "./mampara14.jpeg";
-import mn_15 from "./mampara15.jpeg";
-import mn_16 from "./mampara16.jpeg";
-import mn_17 from "./mampara29.jpeg";
-import mn_18 from "./mampara18.jpeg";
-import mn_19 from "./mampara19.jpeg";
-import mn_20 from "./mampara20.jpeg";
-import mn_21 from "./mampara28.jpeg";
-import mn_22 from "./mampara22.jpeg";
-import mn_23 from "./mampara23.jpeg";
-import mn_24 from "./mampara24.jpeg"; */
-
 const listMampara = {
   nova: [
     { id: 1, image: mn_01, name: "mn_01" },
@@ -45,18 +32,6 @@ const listMampara = {
     { id: 10, image: mn_10, name: "mn_08" },
     { id: 11, image: mn_11, name: "mn_08" },
     { id: 12, image: mn_12, name: "mn_08" },
-    /*     { id: 13, image: mn_13, name: "mn_08" },
-    { id: 14, image: mn_14, name: "mn_08" },
-    { id: 15, image: mn_15, name: "mn_08" },
-    { id: 16, image: mn_16, name: "mn_08" },
-    { id: 17, image: mn_17, name: "mn_08" },
-    { id: 18, image: mn_18, name: "mn_08" },
-    { id: 19, image: mn_19, name: "mn_08" },
-    { id: 20, image: mn_20, name: "mn_08" },
-    { id: 21, image: mn_21, name: "mn_08" },
-    { id: 22, image: mn_22, name: "mn_08" },
-    { id: 23, image: mn_23, name: "mn_08" },
-    { id: 24, image: mn_24, name: "mn_08" }, */
   ],
   serie: [
     { id: 1, image: ms_01, name: "ms_01" },

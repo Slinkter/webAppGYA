@@ -36,7 +36,7 @@ const Ventana = () => {
         <div className="  m-0 ">
           <section className="text-center m-0">
             <div className="container__bgService mb-3">
-              <h2 className="ventana__h2"> SISTEMA SERIE 255 </h2>
+              <h2 className="ventana__h2"> SISTEMA SERIE 25 </h2>
             </div>
           </section>
 
