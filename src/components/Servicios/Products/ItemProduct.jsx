@@ -12,7 +12,7 @@ function ItemService({ image }) {
     <article
       className="bg_product col-sm  d-flex flex-column   "
       style={{
-        backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.283), rgba(4, 4, 4, 0.284)), url(${image})`,
+        backgroundImage: `linear-gradient(90deg, rgba(0, 0, 0, 0.0), rgba(4, 4, 4, 0.0)), url(${image})`,
       }}
       onError={handleErrorImage}
     ></article>
