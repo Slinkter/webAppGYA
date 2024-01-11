@@ -26,6 +26,24 @@ const Mampara = () => {
         </div>
       </section>
 
+      <section>
+        <div className="m-0">
+          <section className="text-center m-0">
+            <div className="container__bg mb-3">
+              <h2 className="mampara__h2"> MAMPARA </h2>
+              <p class="lead text-secondary">Sistema Serie 25</p>
+            </div>
+          </section>
+          <section className="container-fluid ">
+            <div className="products mx-3">
+              {listMampara.serie.map((item) => (
+                <ItemProduct key={item.id} image={item.image} />
+              ))}
+            </div>
+          </section>
+        </div>
+      </section>
+
       {/*  */}
       <Footer />
     </NavWrapper>
