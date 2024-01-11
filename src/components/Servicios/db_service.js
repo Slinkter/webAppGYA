@@ -42,6 +42,7 @@ const listService = [
     image: techopoli,
     name: "Techo de Policarbonato",
     link: "https://www.facebook.com/media/set/?set=a.414060237129511&type=3?from=GoogleBT",
+    plink: "/service/techo-poli",
   },
   {
     id: 5,

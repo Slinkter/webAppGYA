@@ -19,6 +19,7 @@ import Mampara from "./components/Servicios/Products/02.Mampara/Mampara";
 import Ducha from "./components/Servicios/Products/03.Ducha/Ducha";
 // Aux -->
 import ScrollToTop from "./utils/ScrollToTop";
+import Techo from "./components/Servicios/Products/04.Techo/Techo";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -35,6 +36,7 @@ root.render(
       <Route path="/service/ventana" element={<Ventana />} />
       <Route path="/service/mampara" element={<Mampara />} />
       <Route path="/service/ducha" element={<Ducha />} />
+      <Route path="/service/techo-poli" element={<Techo />} />
 
       <Route path="*" element={<ErrorView />} />
     </Routes>
