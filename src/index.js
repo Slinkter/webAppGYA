@@ -53,17 +53,18 @@ root.render(
       <Route path="/service/baranda" element={<Baranda />} />
 
       <Route path="/service/balcones" element={<Balcones />} />
-      <Route path="/service/muro" element={<Muro />} />
-      <Route path="/service/lamina" element={<Lamina />} />
-
-      <Route path="/service/empavonado" element={<Empavonado />} />
       <Route path="/service/puertav" element={<Puertav />} />
       <Route path="/service/puertas" element={<PuertaS />} />
 
       <Route path="/service/celosias" element={<Celosias />} />
+
+      {/*       <Route path="/service/empavonado" element={<Empavonado />} />
+      <Route path="/service/muro" element={<Muro />} />
+      <Route path="/service/lamina" element={<Lamina />} />
+
       <Route path="/service/frenos" element={<Frenos />} />
       <Route path="/service/fachada" element={<Fachada />} />
-
+ */}
       <Route path="*" element={<ErrorView />} />
     </Routes>
     <ScrollToTop />

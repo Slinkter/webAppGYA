@@ -37,34 +37,65 @@ const listService = [
     link: "https://www.facebook.com/media/set/?set=a.414060420462826&type=3?from=GoogleBT",
     plink: "/service/ducha",
   },
+
   {
     id: 4,
-    image: techopoli,
-    name: "Techo de Policarbonato",
-    link: "https://www.facebook.com/media/set/?set=a.414060237129511&type=3?from=GoogleBT",
-    plink: "/service/techo-poli",
-  },
-  {
-    id: 5,
     image: parapeto,
     name: "Parapeto de vidrio",
     link: "https://www.facebook.com/media/set/?set=a.414060023796199&type=3?from=GoogleBT",
     plink: "/service/parapeto",
   },
   {
-    id: 6,
+    id: 5,
     image: baranda,
     name: "Barandas de Acero",
     link: "https://www.facebook.com/gyacompany?from=GoogleBT",
     plink: "/service/baranda",
   },
   {
-    id: 7,
+    id: 6,
     image: balcon,
     name: "Balcones",
     link: "https://www.facebook.com/media/set/?set=a.414059690462899&type=3?from=GoogleBT",
     plink: "/service/balcones",
   },
+
+  {
+    id: 7,
+    image: techopoli,
+    name: "Techo de Policarbonato",
+    link: "https://www.facebook.com/media/set/?set=a.414060237129511&type=3?from=GoogleBT",
+    plink: "/service/techo-poli",
+  },
+
+  {
+    id: 8,
+    image: puertavidrio,
+    name: "Puerta de Vidrio",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/puertav",
+  },
+  {
+    id: 9,
+    image: puertaserie,
+    name: "Puerta en Serie ",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/puertas",
+  },
+
+  {
+    id: 10,
+    image: celocias,
+    name: "Celosías",
+    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/celosias",
+  },
+];
+
+export { listService };
+
+/* 
+
   {
     id: 8,
     image: muro,
@@ -87,27 +118,8 @@ const listService = [
     plink: "/service/empavonado",
   },
 
-  {
-    id: 11,
-    image: puertavidrio,
-    name: "Puerta de Vidrio",
-    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    plink: "/service/puertav",
-  },
-  {
-    id: 12,
-    image: puertaserie,
-    name: "Puerta en Serie ",
-    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    plink: "/service/puertas",
-  },
-  {
-    id: 13,
-    image: celocias,
-    name: "Celosías",
-    link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
-    plink: "/service/celosias",
-  },
+
+
   {
     id: 14,
     image: frenos,
@@ -123,6 +135,5 @@ const listService = [
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
     plink: "/service/fachada",
   },
-];
 
-export { listService };
+*/
