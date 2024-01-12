@@ -14,7 +14,7 @@ export default function NavWrapper({ children }) {
             aria-expanded="true"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
           <div
             className="  justify-content-md-center collapse navbar-collapse "

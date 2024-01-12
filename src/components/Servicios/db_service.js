@@ -49,36 +49,42 @@ const listService = [
     image: parapeto,
     name: "Parapeto de vidrio",
     link: "https://www.facebook.com/media/set/?set=a.414060023796199&type=3?from=GoogleBT",
+    plink: "/service/parapeto",
   },
   {
     id: 6,
     image: baranda,
     name: "Barandas de Acero",
     link: "https://www.facebook.com/gyacompany?from=GoogleBT",
+    plink: "/service/baranda",
   },
   {
     id: 7,
     image: balcon,
     name: "Balcones",
     link: "https://www.facebook.com/media/set/?set=a.414059690462899&type=3?from=GoogleBT",
+    plink: "/service/balcones",
   },
   {
     id: 8,
     image: muro,
     name: "Muro de Cortina ",
     link: "https://www.facebook.com/media/set/?set=a.114380903764114&type=3?from=GoogleBT",
+    plink: "/service/muro",
   },
   {
     id: 9,
     image: lamseg,
     name: "Lámina de Seguridad",
     link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
+    plink: "/service/lamina",
   },
   {
     id: 10,
     image: areanado,
     name: "Empavonado de Cristales",
     link: "https://www.facebook.com/media/set/?set=a.114319533770251&type=3?from=GoogleBT",
+    plink: "/service/empavonado",
   },
 
   {
@@ -86,24 +92,28 @@ const listService = [
     image: puertavidrio,
     name: "Puerta de Vidrio",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/puertav",
   },
   {
     id: 12,
     image: puertaserie,
     name: "Puerta en Serie ",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/puertas",
   },
   {
     id: 13,
     image: celocias,
     name: "Celosías",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/celosias",
   },
   {
     id: 14,
     image: frenos,
     name: "Freno hidráulico ",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/frenos",
   },
 
   {
@@ -111,6 +121,7 @@ const listService = [
     image: fachada,
     name: "Fachada Integral",
     link: "https://www.facebook.com/gyacompany/?from=GoogleBT",
+    plink: "/service/fachada",
   },
 ];
 

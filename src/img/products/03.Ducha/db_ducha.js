@@ -3,7 +3,7 @@ import d_02 from "./ducha08.jpeg";
 import d_03 from "./ducha07.jpeg";
 
 import d_04 from "./ducha12.jpeg";
-import d_05 from "./ducha13.jpeg";
+import d_05 from "./ducha28.jpeg";
 import d_06 from "./ducha11.jpeg";
 
 import d_07 from "./ducha17.jpeg";

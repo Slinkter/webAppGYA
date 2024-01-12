@@ -13,8 +13,8 @@ const Ducha = () => {
       <section>
         <div className="m-0">
           <section className="text-center m-0">
-            <div className="container__bg mb-3">
-              <h2 className="ducha__h2">PUERTA DE DUCHA </h2>
+            <div className="container__bgItem mb-3">
+              <h2 className="container__h2"> PUERTA DE DUCHA </h2>
               <p className="lead text-secondary">
                 Sistema Kit - Vidrio templado 8 mm
               </p>

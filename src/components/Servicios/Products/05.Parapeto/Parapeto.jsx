@@ -1,23 +1,23 @@
 import React from "react";
 import NavWrapper from "../../../NavWrapper";
 import Footer from "../../../FooterWrapper";
+import { listParapeto } from "../../../../img/products/05.Parapeto/db_parapeto";
 import ItemProduct from "../ItemProduct";
-import { listTecho } from "../../../../img/products/04.Techo/db_techo";
 
-const Techo = () => {
+const Parapeto = () => {
   return (
     <NavWrapper>
       <section>
         <div className="m-0">
           <section className="text-center m-0">
             <div className="container__bgItem mb-3">
-              <h2 className="container__h2"> Techo de Policarbonato </h2>
-              <p className="lead text-secondary">Estructura de aluminio</p>
+              <h2 className="container__h2"> PARAPETO </h2>
+              <p className="lead text-secondary">ACERO Y CRISTAL </p>
             </div>
           </section>
           <section className="container-fluid ">
             <div className="products mx-3">
-              {listTecho.techo.map((item) => (
+              {listParapeto.parapeto.map((item) => (
                 <ItemProduct key={item.id} image={item.image} />
               ))}
             </div>
@@ -30,4 +30,4 @@ const Techo = () => {
   );
 };
 
-export default Techo;
+export default Parapeto;

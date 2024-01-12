@@ -4,21 +4,18 @@ import Footer from "../../../FooterWrapper";
 import ItemProduct from "../ItemProduct";
 /*  */
 import { listVentana } from "../../../../img/products/01.Ventanas/db_ventana";
-import "./ventana.css";
+
+import "../ProductStyle.css";
+
 const Ventana = () => {
-  /*   
-  console.log(listVentana.nova);
-  console.log(listVentana.serie); 
-  <img className="container__imgProduct" src={item.image} alt="" />
-  */
   return (
     <NavWrapper>
       {/* NOVA */}
       <section>
         <div className="  m-0 ">
           <section className="text-center m-0">
-            <div className="container__bgService mb-3">
-              <h2 className="ventana__h2"> SISTEMA NOVA </h2>
+            <div className="container__bgItem mb-3">
+              <h2 className="container__h2"> SISTEMA NOVA </h2>
             </div>
           </section>
 
@@ -35,11 +32,11 @@ const Ventana = () => {
       <section>
         <div className="  m-0 ">
           <section className="text-center m-0">
-            <div className="container__bgService mb-3">
-              <h2 className="ventana__h2"> SISTEMA SERIE 25 </h2>
+            <div className="container__bgItem mb-3">
+              <h2 className="container__h2"> SISTEMA SERIE 25 </h2>
             </div>
           </section>
-
+          <br />
           <section className="container-fluid  animated fadeIn">
             <div className="products  mx-3">
               {listVentana.serie.map((item) => (
