@@ -15,7 +15,7 @@ export default function Footer() {
               </div>
               <div className="">
                 <i className="fa-brands fa-whatsapp mx-2"></i>
-                971-870-665
+                974-278-303
               </div>
             </div>
           </div>
