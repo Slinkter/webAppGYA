@@ -34,39 +34,39 @@ import Fachada from "./components/Servicios/Products/15.Fachada/Fachada";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<InicioView />} />
-      <Route path="/service" element={<ServiceView />} />
-      <Route path="product" element={<ProductView />} />
-      <Route path="us" element={<NostrosView />} />
-      <Route path="client" element={<ClientView />} />
-      <Route path="budget" element={<BudgetView />} />
-      <Route path="test" element={<TestPage />} />
+    <BrowserRouter>
+        <Routes>
+            <Route path="/" element={<InicioView />} />
+            <Route path="service" element={<ServiceView />} />
+            <Route path="product" element={<ProductView />} />
+            <Route path="us" element={<NostrosView />} />
+            <Route path="client" element={<ClientView />} />
+            <Route path="budget" element={<BudgetView />} />
+            <Route path="test" element={<TestPage />} />
 
-      <Route path="/service/ventana" element={<Ventana />} />
-      <Route path="/service/mampara" element={<Mampara />} />
-      <Route path="/service/ducha" element={<Ducha />} />
+            <Route path="/service/ventana" element={<Ventana />} />
+            <Route path="/service/mampara" element={<Mampara />} />
+            <Route path="/service/ducha" element={<Ducha />} />
 
-      <Route path="/service/techo-poli" element={<Techo />} />
-      <Route path="/service/parapeto" element={<Parapeto />} />
-      <Route path="/service/baranda" element={<Baranda />} />
+            <Route path="/service/techo-poli" element={<Techo />} />
+            <Route path="/service/parapeto" element={<Parapeto />} />
+            <Route path="/service/baranda" element={<Baranda />} />
 
-      <Route path="/service/balcones" element={<Balcones />} />
-      <Route path="/service/puertav" element={<Puertav />} />
-      <Route path="/service/puertas" element={<PuertaS />} />
+            <Route path="/service/balcones" element={<Balcones />} />
+            <Route path="/service/puertav" element={<Puertav />} />
+            <Route path="/service/puertas" element={<PuertaS />} />
 
-      <Route path="/service/celosias" element={<Celosias />} />
+            <Route path="/service/celosias" element={<Celosias />} />
 
-      {/*       <Route path="/service/empavonado" element={<Empavonado />} />
+            {/*       <Route path="/service/empavonado" element={<Empavonado />} />
       <Route path="/service/muro" element={<Muro />} />
       <Route path="/service/lamina" element={<Lamina />} />
 
       <Route path="/service/frenos" element={<Frenos />} />
       <Route path="/service/fachada" element={<Fachada />} />
  */}
-      <Route path="*" element={<ErrorView />} />
-    </Routes>
-    <ScrollToTop />
-  </BrowserRouter>
+            <Route path="*" element={<ErrorView />} />
+        </Routes>
+        <ScrollToTop />
+    </BrowserRouter>
 );
